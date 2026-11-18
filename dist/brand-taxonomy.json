@@ -1,0 +1,4411 @@
+{
+  "schemaVersion": 2,
+  "source": "Üni-verse live read-only brand and department taxonomy",
+  "fetchedAt": "2026-11-16T13:47:39.366373+00:00",
+  "brands": [
+    {
+      "id": "universe-brand-hm",
+      "name": "H&M",
+      "universeBrandIds": [
+        2
+      ],
+      "erpAliases": [
+        "H & M",
+        "H&M",
+        "HM"
+      ],
+      "aliases": [
+        "H & M",
+        "H&M",
+        "HM"
+      ],
+      "displayOrder": 99,
+      "logoFileName": "af35916d-7ac0-4d2a-9623-38713f687dd8.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/af35916d-7ac0-4d2a-9623-38713f687dd8.png",
+      "children": [
+        {
+          "id": "universe-hm-divided",
+          "name": "Divided",
+          "aliases": [
+            "Divided",
+            "H&M Divided",
+            "HM Divided"
+          ],
+          "departmentNames": [
+            "Divided Black -Basic(1643)",
+            "Divided Blue (7952)",
+            "Divided Blue-Basic (5882)",
+            "Divided Collection -Basic (1645)",
+            "Divided Collection -Bottom (1745)",
+            "Divided Collection Dresses (1344)",
+            "Divided Collection Skirt (1444)",
+            "Divided Collection Tops (1640)",
+            "Divided Collection Trousers (1747)",
+            "Divided Dress (1343)",
+            "Divided Skirt (1447)",
+            "Divided Tops Wowen (1543)",
+            "Divided White (1343)",
+            "Divided White (1644)",
+            "Divided White (1743)"
+          ],
+          "derivedGroup": true,
+          "derivation": "User-requested display group for confirmed H&M DepartmentName values beginning with Divided; not a database parent row and not a collection.",
+          "children": [
+            {
+              "id": "universe-hm-department-534",
+              "name": "Divided Black -Basic(1643)",
+              "aliases": [
+                "Divided Black -Basic(1643)",
+                "Divided Black -Basic(1643)"
+              ],
+              "departmentNames": [
+                "Divided Black -Basic(1643)"
+              ],
+              "universeValueId": 534,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 98,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-15840",
+              "name": "Divided Blue (7952)",
+              "aliases": [
+                "Divided Blue (7952)",
+                "Divided Blue (7952)"
+              ],
+              "departmentNames": [
+                "Divided Blue (7952)"
+              ],
+              "universeValueId": 15840,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 119,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-7868",
+              "name": "Divided Blue-Basic (5882)",
+              "aliases": [
+                "Divided Blue-Basic (5882)",
+                "Divided Blue-Basic (5882)"
+              ],
+              "departmentNames": [
+                "Divided Blue-Basic (5882)"
+              ],
+              "universeValueId": 7868,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 149,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-7555",
+              "name": "Divided Collection -Basic (1645)",
+              "aliases": [
+                "Divided Collection -Basic (1645)",
+                "Divided Collection -Basic (1645)"
+              ],
+              "departmentNames": [
+                "Divided Collection -Basic (1645)"
+              ],
+              "universeValueId": 7555,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 1634,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-5868",
+              "name": "Divided Collection -Bottom (1745)",
+              "aliases": [
+                "Divided Collection -Bottom (1745)",
+                "Divided Collection -Bottom (1745)"
+              ],
+              "departmentNames": [
+                "Divided Collection -Bottom (1745)"
+              ],
+              "universeValueId": 5868,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 4,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-6309",
+              "name": "Divided Collection Dresses (1344)",
+              "aliases": [
+                "Divided Collection Dresses (1344)",
+                "Divided Collection Dresses (1344)"
+              ],
+              "departmentNames": [
+                "Divided Collection Dresses (1344)"
+              ],
+              "universeValueId": 6309,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 260,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-34333",
+              "name": "Divided Collection Skirt (1444)",
+              "aliases": [
+                "Divided Collection Skirt (1444)",
+                "Divided Collection Skirt (1444)"
+              ],
+              "departmentNames": [
+                "Divided Collection Skirt (1444)"
+              ],
+              "universeValueId": 34333,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 71,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-554",
+              "name": "Divided Collection Tops (1640)",
+              "aliases": [
+                "Divided Collection Tops (1640)",
+                "Divided Collection Tops (1640)"
+              ],
+              "departmentNames": [
+                "Divided Collection Tops (1640)"
+              ],
+              "universeValueId": 554,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 2074,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-28093",
+              "name": "Divided Collection Trousers (1747)",
+              "aliases": [
+                "Divided Collection Trousers (1747)",
+                "Divided Collection Trousers (1747)"
+              ],
+              "departmentNames": [
+                "Divided Collection Trousers (1747)"
+              ],
+              "universeValueId": 28093,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 58,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-7693",
+              "name": "Divided Dress (1343)",
+              "aliases": [
+                "Divided Dress (1343)",
+                "Divided Dress (1343)"
+              ],
+              "departmentNames": [
+                "Divided Dress (1343)"
+              ],
+              "universeValueId": 7693,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 93,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-21795",
+              "name": "Divided Skirt (1447)",
+              "aliases": [
+                "Divided Skirt (1447)",
+                "Divided Skirt (1447)"
+              ],
+              "departmentNames": [
+                "Divided Skirt (1447)"
+              ],
+              "universeValueId": 21795,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 9,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-25055",
+              "name": "Divided Tops Wowen (1543)",
+              "aliases": [
+                "Divided Tops Wowen (1543)",
+                "Divided Tops Wowen (1543)"
+              ],
+              "departmentNames": [
+                "Divided Tops Wowen (1543)"
+              ],
+              "universeValueId": 25055,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 52,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-20276",
+              "name": "Divided White (1343)",
+              "aliases": [
+                "Divided White (1343)",
+                "Divided White (1343)"
+              ],
+              "departmentNames": [
+                "Divided White (1343)"
+              ],
+              "universeValueId": 20276,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 8,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-5417",
+              "name": "Divided White (1644)",
+              "aliases": [
+                "Divided White (1644)",
+                "Divided White (1644)"
+              ],
+              "departmentNames": [
+                "Divided White (1644)"
+              ],
+              "universeValueId": 5417,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 113,
+              "children": []
+            },
+            {
+              "id": "universe-hm-department-1589684",
+              "name": "Divided White (1743)",
+              "aliases": [
+                "Divided White (1743)",
+                "Divided White (1743)"
+              ],
+              "departmentNames": [
+                "Divided White (1743)"
+              ],
+              "universeValueId": 1589684,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 3,
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "universe-hm-department-1799604",
+          "name": "6545 (Baby Boy)",
+          "aliases": [
+            "6545 (Baby Boy) ",
+            "6545 (Baby Boy)"
+          ],
+          "departmentNames": [
+            "6545 (Baby Boy) "
+          ],
+          "universeValueId": 1799604,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 10,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-62739",
+          "name": "7272 (Men Light Graphic Jersey)",
+          "aliases": [
+            "7272 (Men Light Graphic Jersey)",
+            "7272 (Men Light Graphic Jersey)"
+          ],
+          "departmentNames": [
+            "7272 (Men Light Graphic Jersey)"
+          ],
+          "universeValueId": 62739,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 4,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1768953",
+          "name": "8737",
+          "aliases": [
+            "8737",
+            "8737"
+          ],
+          "departmentNames": [
+            "8737"
+          ],
+          "universeValueId": 1768953,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 5,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-197014",
+          "name": "All in Women (1275)",
+          "aliases": [
+            "All in Women (1275)",
+            "All in Women (1275)"
+          ],
+          "departmentNames": [
+            "All in Women (1275)"
+          ],
+          "universeValueId": 197014,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-36601",
+          "name": "Baby Girl (6555)",
+          "aliases": [
+            "Baby Girl (6555)",
+            "Baby Girl (6555)"
+          ],
+          "departmentNames": [
+            "Baby Girl (6555)"
+          ],
+          "universeValueId": 36601,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-33138",
+          "name": "Basic Big  Girl (7930)",
+          "aliases": [
+            "Basic Big  Girl (7930)",
+            "Basic Big  Girl (7930)"
+          ],
+          "departmentNames": [
+            "Basic Big  Girl (7930)"
+          ],
+          "universeValueId": 33138,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 31,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-18791",
+          "name": "BEACHWEAR (1340)",
+          "aliases": [
+            "BEACHWEAR (1340)",
+            "BEACHWEAR (1340)"
+          ],
+          "departmentNames": [
+            "BEACHWEAR (1340)"
+          ],
+          "universeValueId": 18791,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 11,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-27587",
+          "name": "Boy (7668)",
+          "aliases": [
+            "Boy (7668)",
+            "Boy (7668)"
+          ],
+          "departmentNames": [
+            "Boy (7668)"
+          ],
+          "universeValueId": 27587,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 27,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-14487",
+          "name": "Boys (7648)",
+          "aliases": [
+            "Boys (7648)",
+            "Boys (7648)"
+          ],
+          "departmentNames": [
+            "Boys (7648)"
+          ],
+          "universeValueId": 14487,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 352,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-27950",
+          "name": "Chiboogi Girls (7616)",
+          "aliases": [
+            "Chiboogi Girls (7616)",
+            "Chiboogi Girls (7616)"
+          ],
+          "departmentNames": [
+            "Chiboogi Girls (7616)"
+          ],
+          "universeValueId": 27950,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-3670",
+          "name": "Dubbster-Young Boys (8748)",
+          "aliases": [
+            "Dubbster-Young Boys (8748)",
+            "Dubbster-Young Boys (8748)"
+          ],
+          "departmentNames": [
+            "Dubbster-Young Boys (8748)"
+          ],
+          "universeValueId": 3670,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 345,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-14999",
+          "name": "Girl Outdoor (7819)",
+          "aliases": [
+            "Girl Outdoor (7819)",
+            "Girl Outdoor (7819)"
+          ],
+          "departmentNames": [
+            "Girl Outdoor (7819)"
+          ],
+          "universeValueId": 14999,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 432,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-6325",
+          "name": "H&M Men (5828)",
+          "aliases": [
+            "H&M Men (5828)",
+            "H&M Men (5828)"
+          ],
+          "departmentNames": [
+            "H&M Men (5828)"
+          ],
+          "universeValueId": 6325,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1125,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-138571",
+          "name": "Heavy Graphic Jersey(7273)",
+          "aliases": [
+            "Heavy Graphic Jersey(7273)",
+            "Heavy Graphic Jersey(7273)"
+          ],
+          "departmentNames": [
+            "Heavy Graphic Jersey(7273)"
+          ],
+          "universeValueId": 138571,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 39,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-15889",
+          "name": "Hennes- Classic-Top/Basic (1666)",
+          "aliases": [
+            "Hennes- Classic-Top/Basic (1666)",
+            "Hennes- Classic-Top/Basic (1666)"
+          ],
+          "departmentNames": [
+            "Hennes- Classic-Top/Basic (1666)"
+          ],
+          "universeValueId": 15889,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 146,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-5586",
+          "name": "Hennes-Everyday- Dress/Skirt (1322)",
+          "aliases": [
+            "Hennes-Everyday- Dress/Skirt (1322)",
+            "Hennes-Everyday- Dress/Skirt (1322)"
+          ],
+          "departmentNames": [
+            "Hennes-Everyday- Dress/Skirt (1322)"
+          ],
+          "universeValueId": 5586,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 240,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-265356",
+          "name": "Hennes-Everyday- Dress/Skirt (1422)",
+          "aliases": [
+            "Hennes-Everyday- Dress/Skirt (1422)",
+            "Hennes-Everyday- Dress/Skirt (1422)"
+          ],
+          "departmentNames": [
+            "Hennes-Everyday- Dress/Skirt (1422)"
+          ],
+          "universeValueId": 265356,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-7007",
+          "name": "Hennes-Everyday-Basic (1676)",
+          "aliases": [
+            "Hennes-Everyday-Basic (1676)",
+            "Hennes-Everyday-Basic (1676)"
+          ],
+          "departmentNames": [
+            "Hennes-Everyday-Basic (1676)"
+          ],
+          "universeValueId": 7007,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1970,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-2142",
+          "name": "Hennes-Everyday-Tops (1636)",
+          "aliases": [
+            "Hennes-Everyday-Tops (1636)",
+            "Hennes-Everyday-Tops (1636)"
+          ],
+          "departmentNames": [
+            "Hennes-Everyday-Tops (1636)"
+          ],
+          "universeValueId": 2142,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2689,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-7060",
+          "name": "HM Sport (8316)",
+          "aliases": [
+            "HM Sport (8316)",
+            "HM Sport (8316)"
+          ],
+          "departmentNames": [
+            "HM Sport (8316)"
+          ],
+          "universeValueId": 7060,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 141,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1629135",
+          "name": "HM Sport (8491)",
+          "aliases": [
+            "HM Sport (8491)",
+            "HM Sport (8491)"
+          ],
+          "departmentNames": [
+            "HM Sport (8491)"
+          ],
+          "universeValueId": 1629135,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-50481",
+          "name": "HM Sport (8564)",
+          "aliases": [
+            "HM Sport (8564)",
+            "HM Sport (8564)"
+          ],
+          "departmentNames": [
+            "HM Sport (8564)"
+          ],
+          "universeValueId": 50481,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-14401",
+          "name": "Kids (6280)",
+          "aliases": [
+            "Kids (6280)",
+            "Kids (6280)"
+          ],
+          "departmentNames": [
+            "Kids (6280)"
+          ],
+          "universeValueId": 14401,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 141,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-14928",
+          "name": "Kids Boy (7656)",
+          "aliases": [
+            "Kids Boy (7656)",
+            "Kids Boy (7656)"
+          ],
+          "departmentNames": [
+            "Kids Boy (7656)"
+          ],
+          "universeValueId": 14928,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 154,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1816433",
+          "name": "Kids Boy 9-14 yrs License (9631)",
+          "aliases": [
+            "Kids Boy 9-14 yrs License (9631)",
+            "Kids Boy 9-14 yrs License (9631)"
+          ],
+          "departmentNames": [
+            "Kids Boy 9-14 yrs License (9631)"
+          ],
+          "universeValueId": 1816433,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 12,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1617662",
+          "name": "Kids Boy Project(8854)",
+          "aliases": [
+            "Kids Boy Project(8854)",
+            "Kids Boy Project(8854)"
+          ],
+          "departmentNames": [
+            "Kids Boy Project(8854)"
+          ],
+          "universeValueId": 1617662,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 14,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-211",
+          "name": "License Boys (7659)",
+          "aliases": [
+            "License Boys (7659)",
+            "License Boys (7659)"
+          ],
+          "departmentNames": [
+            "License Boys (7659)"
+          ],
+          "universeValueId": 211,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 453,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1750432",
+          "name": "License Girls (7619)",
+          "aliases": [
+            "License Girls (7619)",
+            "License Girls (7619)"
+          ],
+          "departmentNames": [
+            "License Girls (7619)"
+          ],
+          "universeValueId": 1750432,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 5,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-14887",
+          "name": "Light Basic Jersey (5832)",
+          "aliases": [
+            "Light Basic Jersey (5832)",
+            "Light Basic Jersey (5832)"
+          ],
+          "departmentNames": [
+            "Light Basic Jersey (5832)"
+          ],
+          "universeValueId": 14887,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 109,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-7677",
+          "name": "LOGG Ladies (1660)",
+          "aliases": [
+            "LOGG Ladies (1660)",
+            "LOGG Ladies (1660)"
+          ],
+          "departmentNames": [
+            "LOGG Ladies (1660)"
+          ],
+          "universeValueId": 7677,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 253,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-7574",
+          "name": "LOGG Ladies Basic (1670)",
+          "aliases": [
+            "LOGG Ladies Basic (1670)",
+            "LOGG Ladies Basic (1670)"
+          ],
+          "departmentNames": [
+            "LOGG Ladies Basic (1670)"
+          ],
+          "universeValueId": 7574,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 160,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-18443",
+          "name": "LOGG Men (5848)",
+          "aliases": [
+            "LOGG Men (5848)",
+            "LOGG Men (5848)"
+          ],
+          "departmentNames": [
+            "LOGG Men (5848)"
+          ],
+          "universeValueId": 18443,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 40,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-21039",
+          "name": "LOGG Men-Basic (5868)",
+          "aliases": [
+            "LOGG Men-Basic (5868)",
+            "LOGG Men-Basic (5868)"
+          ],
+          "departmentNames": [
+            "LOGG Men-Basic (5868)"
+          ],
+          "universeValueId": 21039,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-29023",
+          "name": "LOGG Men-Heavyknit (5858)",
+          "aliases": [
+            "LOGG Men-Heavyknit (5858)",
+            "LOGG Men-Heavyknit (5858)"
+          ],
+          "departmentNames": [
+            "LOGG Men-Heavyknit (5858)"
+          ],
+          "universeValueId": 29023,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-276203",
+          "name": "Mama (2032)",
+          "aliases": [
+            "Mama (2032)",
+            "Mama (2032)"
+          ],
+          "departmentNames": [
+            "Mama (2032)"
+          ],
+          "universeValueId": 276203,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 101,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-85840",
+          "name": "MAN PROJECTS 2 (5741)",
+          "aliases": [
+            "MAN PROJECTS 2 (5741)",
+            "MAN PROJECTS 2 (5741)"
+          ],
+          "departmentNames": [
+            "MAN PROJECTS 2 (5741)"
+          ],
+          "universeValueId": 85840,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 8,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-80202",
+          "name": "Men Light Graphic Jersey(7272)",
+          "aliases": [
+            "Men Light Graphic Jersey(7272)",
+            "Men Light Graphic Jersey(7272)"
+          ],
+          "departmentNames": [
+            "Men Light Graphic Jersey(7272)"
+          ],
+          "universeValueId": 80202,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 58,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-24928",
+          "name": "MONKI",
+          "aliases": [
+            "MONKI",
+            "MONKI"
+          ],
+          "departmentNames": [
+            "MONKI"
+          ],
+          "universeValueId": 24928,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 63,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-28329",
+          "name": "MONKI (3301)",
+          "aliases": [
+            "MONKI (3301) ",
+            "MONKI (3301)"
+          ],
+          "departmentNames": [
+            "MONKI (3301) "
+          ],
+          "universeValueId": 28329,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 123,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-33754",
+          "name": "MONKI (3304)",
+          "aliases": [
+            "MONKI (3304)",
+            "MONKI (3304)"
+          ],
+          "departmentNames": [
+            "MONKI (3304)"
+          ],
+          "universeValueId": 33754,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 21,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-52110",
+          "name": "MONKI (3306)",
+          "aliases": [
+            "MONKI (3306)",
+            "MONKI (3306)"
+          ],
+          "departmentNames": [
+            "MONKI (3306)"
+          ],
+          "universeValueId": 52110,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 36,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-176484",
+          "name": "Monki-dress (3307)",
+          "aliases": [
+            "Monki-dress (3307)",
+            "Monki-dress (3307)"
+          ],
+          "departmentNames": [
+            "Monki-dress (3307)"
+          ],
+          "universeValueId": 176484,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-144634",
+          "name": "New Development (9020)",
+          "aliases": [
+            "New Development (9020)",
+            "New Development (9020)"
+          ],
+          "departmentNames": [
+            "New Development (9020)"
+          ],
+          "universeValueId": 144634,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 9,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-144150",
+          "name": "Nightwear (3709)",
+          "aliases": [
+            "Nightwear (3709)",
+            "Nightwear (3709)"
+          ],
+          "departmentNames": [
+            "Nightwear (3709)"
+          ],
+          "universeValueId": 144150,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 17,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1847820",
+          "name": "NW2 (3020)",
+          "aliases": [
+            "NW2 (3020)",
+            "NW2 (3020)"
+          ],
+          "departmentNames": [
+            "NW2 (3020)"
+          ],
+          "universeValueId": 1847820,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-326453",
+          "name": "Project(8020)",
+          "aliases": [
+            "Project(8020)",
+            "Project(8020)"
+          ],
+          "departmentNames": [
+            "Project(8020)"
+          ],
+          "universeValueId": 326453,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-78116",
+          "name": "Small Boys License(7878)",
+          "aliases": [
+            "Small Boys License(7878)",
+            "Small Boys License(7878)"
+          ],
+          "departmentNames": [
+            "Small Boys License(7878)"
+          ],
+          "universeValueId": 78116,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 46,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1616698",
+          "name": "Small Girl Basic (7920)",
+          "aliases": [
+            "Small Girl Basic (7920)",
+            "Small Girl Basic (7920)"
+          ],
+          "departmentNames": [
+            "Small Girl Basic (7920)"
+          ],
+          "universeValueId": 1616698,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 41,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-15154",
+          "name": "Small Girls (7616)",
+          "aliases": [
+            "Small Girls (7616)",
+            "Small Girls (7616)"
+          ],
+          "departmentNames": [
+            "Small Girls (7616)"
+          ],
+          "universeValueId": 15154,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 510,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-21198",
+          "name": "Small Girls (7618)",
+          "aliases": [
+            "Small Girls (7618)",
+            "Small Girls (7618)"
+          ],
+          "departmentNames": [
+            "Small Girls (7618)"
+          ],
+          "universeValueId": 21198,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 122,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-15718",
+          "name": "South Hub(3010)",
+          "aliases": [
+            "South Hub(3010)",
+            "South Hub(3010)"
+          ],
+          "departmentNames": [
+            "South Hub(3010)"
+          ],
+          "universeValueId": 15718,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 163,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-3194",
+          "name": "Sport (8310)",
+          "aliases": [
+            "Sport (8310) ",
+            "Sport (8310)"
+          ],
+          "departmentNames": [
+            "Sport (8310) "
+          ],
+          "universeValueId": 3194,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 8,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1589477",
+          "name": "Sport Kids (4314)",
+          "aliases": [
+            "Sport Kids (4314)",
+            "Sport Kids (4314)"
+          ],
+          "departmentNames": [
+            "Sport Kids (4314)"
+          ],
+          "universeValueId": 1589477,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 6,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-20744",
+          "name": "Sport Kids (6283)",
+          "aliases": [
+            "Sport Kids (6283) ",
+            "Sport Kids (6283)"
+          ],
+          "departmentNames": [
+            "Sport Kids (6283) "
+          ],
+          "universeValueId": 20744,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-8183",
+          "name": "Sport MEN (8394)",
+          "aliases": [
+            "Sport MEN (8394)",
+            "Sport MEN (8394)"
+          ],
+          "departmentNames": [
+            "Sport MEN (8394)"
+          ],
+          "universeValueId": 8183,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-54663",
+          "name": "Sport MEN (8558)",
+          "aliases": [
+            "Sport MEN (8558)",
+            "Sport MEN (8558)"
+          ],
+          "departmentNames": [
+            "Sport MEN (8558)"
+          ],
+          "universeValueId": 54663,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-3208",
+          "name": "Sports (8490)",
+          "aliases": [
+            "Sports (8490)",
+            "Sports (8490)"
+          ],
+          "departmentNames": [
+            "Sports (8490)"
+          ],
+          "universeValueId": 3208,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 30,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-18455",
+          "name": "Sports Kids Girl (6280)",
+          "aliases": [
+            "Sports Kids Girl (6280)",
+            "Sports Kids Girl (6280)"
+          ],
+          "departmentNames": [
+            "Sports Kids Girl (6280)"
+          ],
+          "universeValueId": 18455,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-6663",
+          "name": "Trend (1641)",
+          "aliases": [
+            "Trend (1641)",
+            "Trend (1641)"
+          ],
+          "departmentNames": [
+            "Trend (1641)"
+          ],
+          "universeValueId": 6663,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 329,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-146125",
+          "name": "Weekday (8501)",
+          "aliases": [
+            "Weekday (8501)",
+            "Weekday (8501)"
+          ],
+          "departmentNames": [
+            "Weekday (8501)"
+          ],
+          "universeValueId": 146125,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 6,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-54765",
+          "name": "Weekday Men Sub (8213)",
+          "aliases": [
+            "Weekday Men Sub (8213)",
+            "Weekday Men Sub (8213)"
+          ],
+          "departmentNames": [
+            "Weekday Men Sub (8213)"
+          ],
+          "universeValueId": 54765,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-57402",
+          "name": "Weekday Men(8201)",
+          "aliases": [
+            "Weekday Men(8201)",
+            "Weekday Men(8201)"
+          ],
+          "departmentNames": [
+            "Weekday Men(8201)"
+          ],
+          "universeValueId": 57402,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 19,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-1784443",
+          "name": "Weekday Skirts / Jersey Fancy (8113)",
+          "aliases": [
+            "Weekday Skirts / Jersey Fancy (8113)",
+            "Weekday Skirts / Jersey Fancy (8113)"
+          ],
+          "departmentNames": [
+            "Weekday Skirts / Jersey Fancy (8113)"
+          ],
+          "universeValueId": 1784443,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 5,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-99711",
+          "name": "Weekday Woman (8101)",
+          "aliases": [
+            "Weekday Woman (8101)",
+            "Weekday Woman (8101)"
+          ],
+          "departmentNames": [
+            "Weekday Woman (8101)"
+          ],
+          "universeValueId": 99711,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 12,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-52917",
+          "name": "Weekday Women (8121)",
+          "aliases": [
+            "Weekday Women (8121)",
+            "Weekday Women (8121)"
+          ],
+          "departmentNames": [
+            "Weekday Women (8121)"
+          ],
+          "universeValueId": 52917,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 143,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-33993",
+          "name": "Weekday Women (8401)",
+          "aliases": [
+            "Weekday Women (8401)",
+            "Weekday Women (8401)"
+          ],
+          "departmentNames": [
+            "Weekday Women (8401)"
+          ],
+          "universeValueId": 33993,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 382,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-284577",
+          "name": "WEEKDAY-LIMITED EDITION(8107)",
+          "aliases": [
+            "WEEKDAY-LIMITED EDITION(8107)",
+            "WEEKDAY-LIMITED EDITION(8107)"
+          ],
+          "departmentNames": [
+            "WEEKDAY-LIMITED EDITION(8107)"
+          ],
+          "universeValueId": 284577,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-29083",
+          "name": "Young Boy (8768)",
+          "aliases": [
+            "Young Boy (8768)",
+            "Young Boy (8768)"
+          ],
+          "departmentNames": [
+            "Young Boy (8768)"
+          ],
+          "universeValueId": 29083,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 14,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-6777",
+          "name": "Young Boys (7848)",
+          "aliases": [
+            "Young Boys (7848)",
+            "Young Boys (7848)"
+          ],
+          "departmentNames": [
+            "Young Boys (7848)"
+          ],
+          "universeValueId": 6777,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 341,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-220",
+          "name": "Young Girl (8716)",
+          "aliases": [
+            "Young Girl (8716)",
+            "Young Girl (8716)"
+          ],
+          "departmentNames": [
+            "Young Girl (8716)"
+          ],
+          "universeValueId": 220,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 945,
+          "children": []
+        },
+        {
+          "id": "universe-hm-department-14390",
+          "name": "Young Girl (8718)",
+          "aliases": [
+            "Young Girl (8718)",
+            "Young Girl (8718)"
+          ],
+          "departmentNames": [
+            "Young Girl (8718)"
+          ],
+          "universeValueId": 14390,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 6,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 17272,
+      "erpMarkRecords": [
+        {
+          "RecId": 4,
+          "MarkName": "H&M",
+          "Explanation": "H&M",
+          "InUse": 1,
+          "UD_Line": "ND001"
+        },
+        {
+          "RecId": 44,
+          "MarkName": "H&M",
+          "Explanation": "H&M",
+          "InUse": 1,
+          "UD_Line": null
+        },
+        {
+          "RecId": 101,
+          "MarkName": "H&M",
+          "Explanation": "H&M",
+          "InUse": 1,
+          "UD_Line": "ND001"
+        }
+      ],
+      "erpMarkIds": [
+        4,
+        44,
+        101
+      ],
+      "erpMarkCodes": [
+        "H&M"
+      ],
+      "logoUrl": "brand-logos/af35916d-7ac0-4d2a-9623-38713f687dd8.png"
+    },
+    {
+      "id": "universe-brand-ca",
+      "name": "C&A",
+      "universeBrandIds": [
+        1
+      ],
+      "erpAliases": [
+        "BRAVADO",
+        "C&A",
+        "DIFUZED BV",
+        "HOUSE",
+        "NY APPAREL"
+      ],
+      "aliases": [
+        "C&A"
+      ],
+      "displayOrder": 90,
+      "logoFileName": "8e96c0fe-628d-48a1-ae89-cde5375618f8.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/8e96c0fe-628d-48a1-ae89-cde5375618f8.png",
+      "children": [
+        {
+          "id": "universe-ca-department-85142",
+          "name": "Canda Men (603)",
+          "aliases": [
+            "Canda Men (603)",
+            "Canda Men (603)"
+          ],
+          "departmentNames": [
+            "Canda Men (603)"
+          ],
+          "universeValueId": 85142,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 14,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-522",
+          "name": "Clockhouse",
+          "aliases": [
+            "Clockhouse",
+            "Clockhouse"
+          ],
+          "departmentNames": [
+            "Clockhouse"
+          ],
+          "universeValueId": 522,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1636,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-627",
+          "name": "Clockhouse Boys",
+          "aliases": [
+            "Clockhouse Boys",
+            "Clockhouse Boys"
+          ],
+          "departmentNames": [
+            "Clockhouse Boys"
+          ],
+          "universeValueId": 627,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 548,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-57784",
+          "name": "Clockhouse Boys (707)",
+          "aliases": [
+            "Clockhouse Boys (707)",
+            "Clockhouse Boys (707)"
+          ],
+          "departmentNames": [
+            "Clockhouse Boys (707)"
+          ],
+          "universeValueId": 57784,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 30,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-838",
+          "name": "Clockhouse XL",
+          "aliases": [
+            "Clockhouse XL",
+            "Clockhouse XL"
+          ],
+          "departmentNames": [
+            "Clockhouse XL"
+          ],
+          "universeValueId": 838,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 5,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-49",
+          "name": "Kids (344)",
+          "aliases": [
+            "Kids (344)",
+            "Kids (344)"
+          ],
+          "departmentNames": [
+            "Kids (344)"
+          ],
+          "universeValueId": 49,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1386,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-24",
+          "name": "Kids Bottom (334)",
+          "aliases": [
+            "Kids Bottom (334)",
+            "Kids Bottom (334)"
+          ],
+          "departmentNames": [
+            "Kids Bottom (334)"
+          ],
+          "universeValueId": 24,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 22,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-115042",
+          "name": "Kids Boys Top Toddler(446)",
+          "aliases": [
+            "Kids Boys Top Toddler(446)",
+            "Kids Boys Top Toddler(446)"
+          ],
+          "departmentNames": [
+            "Kids Boys Top Toddler(446)"
+          ],
+          "universeValueId": 115042,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-770",
+          "name": "Kids Set & Dress (354)",
+          "aliases": [
+            "Kids Set & Dress (354)",
+            "Kids Set & Dress (354)"
+          ],
+          "departmentNames": [
+            "Kids Set & Dress (354)"
+          ],
+          "universeValueId": 770,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 41,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-202520",
+          "name": "Kids Top (344)",
+          "aliases": [
+            "Kids Top (344)",
+            "Kids Top (344)"
+          ],
+          "departmentNames": [
+            "Kids Top (344)"
+          ],
+          "universeValueId": 202520,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 6,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-246277",
+          "name": "Men Sweats + Joggers (603)",
+          "aliases": [
+            "Men Sweats + Joggers (603)",
+            "Men Sweats + Joggers (603)"
+          ],
+          "departmentNames": [
+            "Men Sweats + Joggers (603)"
+          ],
+          "universeValueId": 246277,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 14,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-320120",
+          "name": "Men YF Joggers Jogshorts and Leggings (777)",
+          "aliases": [
+            "Men YF Joggers Jogshorts and Leggings (777)",
+            "Men YF Joggers Jogshorts and Leggings (777)"
+          ],
+          "departmentNames": [
+            "Men YF Joggers Jogshorts and Leggings (777)"
+          ],
+          "universeValueId": 320120,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-239737",
+          "name": "Men YF T-Shirts Polos incl sleeveless Tops (705)",
+          "aliases": [
+            "Men YF T-Shirts Polos incl sleeveless Tops (705)",
+            "Men YF T-Shirts Polos incl sleeveless Tops (705)"
+          ],
+          "departmentNames": [
+            "Men YF T-Shirts Polos incl sleeveless Tops (705)"
+          ],
+          "universeValueId": 239737,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 225,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-33472",
+          "name": "MENS CASUAL",
+          "aliases": [
+            "MENS CASUAL",
+            "MENS CASUAL"
+          ],
+          "departmentNames": [
+            "MENS CASUAL"
+          ],
+          "universeValueId": 33472,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 431,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-12245",
+          "name": "Toddler (346)",
+          "aliases": [
+            "Toddler (346)",
+            "Toddler (346)"
+          ],
+          "departmentNames": [
+            "Toddler (346)"
+          ],
+          "universeValueId": 12245,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 365,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-1617294",
+          "name": "Toddler Baby Top(346)",
+          "aliases": [
+            "Toddler Baby Top(346)",
+            "Toddler Baby Top(346)"
+          ],
+          "departmentNames": [
+            "Toddler Baby Top(346)"
+          ],
+          "universeValueId": 1617294,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 8,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-67561",
+          "name": "Toddler Set & Dress (356)",
+          "aliases": [
+            "Toddler Set & Dress (356)",
+            "Toddler Set & Dress (356)"
+          ],
+          "departmentNames": [
+            "Toddler Set & Dress (356)"
+          ],
+          "universeValueId": 67561,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 6,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-254961",
+          "name": "Women Casual Dresses (024)",
+          "aliases": [
+            "Women Casual Dresses (024)",
+            "Women Casual Dresses (024)"
+          ],
+          "departmentNames": [
+            "Women Casual Dresses (024)"
+          ],
+          "universeValueId": 254961,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 10,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-289329",
+          "name": "Women Joggers Joghorts and Leggings (032)",
+          "aliases": [
+            "Women Joggers Joghorts and Leggings (032)",
+            "Women Joggers Joghorts and Leggings (032)"
+          ],
+          "departmentNames": [
+            "Women Joggers Joghorts and Leggings (032)"
+          ],
+          "universeValueId": 289329,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-225343",
+          "name": "Women Skirts (134)",
+          "aliases": [
+            "Women Skirts (134)",
+            "Women Skirts (134)"
+          ],
+          "departmentNames": [
+            "Women Skirts (134)"
+          ],
+          "universeValueId": 225343,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 4,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-206815",
+          "name": "Women Sweatshirts (030)",
+          "aliases": [
+            "Women Sweatshirts (030)",
+            "Women Sweatshirts (030)"
+          ],
+          "departmentNames": [
+            "Women Sweatshirts (030)"
+          ],
+          "universeValueId": 206815,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 13,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-206389",
+          "name": "Women T-Shirts Polos incl sleeveless Tops (124)",
+          "aliases": [
+            "Women T-Shirts Polos incl sleeveless Tops (124)",
+            "Women T-Shirts Polos incl sleeveless Tops (124)"
+          ],
+          "departmentNames": [
+            "Women T-Shirts Polos incl sleeveless Tops (124)"
+          ],
+          "universeValueId": 206389,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 101,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-221343",
+          "name": "Women XL Tops (107)",
+          "aliases": [
+            "Women XL Tops (107)",
+            "Women XL Tops (107)"
+          ],
+          "departmentNames": [
+            "Women XL Tops (107)"
+          ],
+          "universeValueId": 221343,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-1706314",
+          "name": "Women Young Fash Dresses (665)",
+          "aliases": [
+            "Women Young Fash Dresses (665)",
+            "Women Young Fash Dresses (665)"
+          ],
+          "departmentNames": [
+            "Women Young Fash Dresses (665)"
+          ],
+          "universeValueId": 1706314,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-206806",
+          "name": "Women Young Fash Dresses Skirts (771)",
+          "aliases": [
+            "Women Young Fash Dresses Skirts (771)",
+            "Women Young Fash Dresses Skirts (771)"
+          ],
+          "departmentNames": [
+            "Women Young Fash Dresses Skirts (771)"
+          ],
+          "universeValueId": 206806,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 7,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-207476",
+          "name": "Women Young Fash T-Shirts Polos incl sleevel Tops (664)",
+          "aliases": [
+            "Women Young Fash T-Shirts Polos incl sleevel Tops (664)",
+            "Women Young Fash T-Shirts Polos incl sleevel Tops (664)"
+          ],
+          "departmentNames": [
+            "Women Young Fash T-Shirts Polos incl sleevel Tops (664)"
+          ],
+          "universeValueId": 207476,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 397,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-11736",
+          "name": "Yessica (122)",
+          "aliases": [
+            "Yessica (122)",
+            "Yessica (122)"
+          ],
+          "departmentNames": [
+            "Yessica (122)"
+          ],
+          "universeValueId": 11736,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1597,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-950",
+          "name": "Yessica Basic",
+          "aliases": [
+            "Yessica Basic",
+            "Yessica Basic"
+          ],
+          "departmentNames": [
+            "Yessica Basic"
+          ],
+          "universeValueId": 950,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 214,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-800",
+          "name": "Yessica Dress (024)",
+          "aliases": [
+            "Yessica Dress (024)",
+            "Yessica Dress (024)"
+          ],
+          "departmentNames": [
+            "Yessica Dress (024)"
+          ],
+          "universeValueId": 800,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 57,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-660",
+          "name": "Yessica Shop",
+          "aliases": [
+            "Yessica Shop",
+            "Yessica Shop"
+          ],
+          "departmentNames": [
+            "Yessica Shop"
+          ],
+          "universeValueId": 660,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 616,
+          "children": []
+        },
+        {
+          "id": "universe-ca-department-67249",
+          "name": "Yessica Shop Bottoms (144)",
+          "aliases": [
+            "Yessica Shop Bottoms (144)",
+            "Yessica Shop Bottoms (144)"
+          ],
+          "departmentNames": [
+            "Yessica Shop Bottoms (144)"
+          ],
+          "universeValueId": 67249,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 17,
+          "children": []
+        },
+        {
+          "id": "universe-brand-house",
+          "name": "HOUSE",
+          "universeBrandIds": [
+            35
+          ],
+          "erpAliases": [
+            "HOUSE"
+          ],
+          "aliases": [
+            "HOUSE"
+          ],
+          "displayOrder": 0,
+          "logoFileName": null,
+          "logoSourceUrl": null,
+          "children": [
+            {
+              "id": "universe-house-department-2047",
+              "name": "Ladies Top",
+              "aliases": [
+                "Ladies Top",
+                "Ladies Top"
+              ],
+              "departmentNames": [
+                "Ladies Top"
+              ],
+              "universeValueId": 2047,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 10,
+              "children": []
+            },
+            {
+              "id": "universe-house-department-2081",
+              "name": "Women",
+              "aliases": [
+                "Women ",
+                "Women"
+              ],
+              "departmentNames": [
+                "Women "
+              ],
+              "universeValueId": 2081,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 10,
+              "children": []
+            }
+          ],
+          "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+          "evidenceProductCount": 20,
+          "erpMarkRecords": [
+            {
+              "RecId": 100,
+              "MarkName": "HOU",
+              "Explanation": "HOUSE",
+              "InUse": 1,
+              "UD_Line": "ND004"
+            }
+          ],
+          "erpMarkIds": [
+            100
+          ],
+          "erpMarkCodes": [
+            "HOU"
+          ],
+          "kind": "erp-brand",
+          "parentBrandId": "universe-brand-ca",
+          "relationshipSource": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu"
+        },
+        {
+          "id": "universe-brand-bravado",
+          "name": "BRAVADO",
+          "universeBrandIds": [
+            12
+          ],
+          "erpAliases": [
+            "BRAVADO"
+          ],
+          "aliases": [
+            "BRAVADO"
+          ],
+          "displayOrder": 0,
+          "logoFileName": null,
+          "logoSourceUrl": null,
+          "children": [
+            {
+              "id": "universe-bravado-department-190771",
+              "name": "CLK",
+              "aliases": [
+                "CLK",
+                "CLK"
+              ],
+              "departmentNames": [
+                "CLK"
+              ],
+              "universeValueId": 190771,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 33,
+              "children": []
+            },
+            {
+              "id": "universe-bravado-department-349392",
+              "name": "KIDS",
+              "aliases": [
+                "KIDS",
+                "KIDS"
+              ],
+              "departmentNames": [
+                "KIDS"
+              ],
+              "universeValueId": 349392,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 1,
+              "children": []
+            },
+            {
+              "id": "universe-bravado-department-270835",
+              "name": "LISANS",
+              "aliases": [
+                "LISANS",
+                "LISANS"
+              ],
+              "departmentNames": [
+                "LISANS"
+              ],
+              "universeValueId": 270835,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 3,
+              "children": []
+            }
+          ],
+          "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+          "evidenceProductCount": 37,
+          "erpMarkRecords": [
+            {
+              "RecId": 30,
+              "MarkName": "BRV",
+              "Explanation": "BRAVADO",
+              "InUse": 1,
+              "UD_Line": null
+            },
+            {
+              "RecId": 48,
+              "MarkName": "BRV",
+              "Explanation": "BRAVADO",
+              "InUse": 1,
+              "UD_Line": null
+            }
+          ],
+          "erpMarkIds": [
+            30,
+            48
+          ],
+          "erpMarkCodes": [
+            "BRV"
+          ],
+          "kind": "erp-brand",
+          "parentBrandId": "universe-brand-ca",
+          "relationshipSource": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu"
+        },
+        {
+          "id": "universe-brand-difuzedbv",
+          "name": "DIFUZED BV",
+          "universeBrandIds": [
+            13,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            31,
+            32
+          ],
+          "erpAliases": [
+            "DIFUZED BV"
+          ],
+          "aliases": [
+            "DIFUZED BV"
+          ],
+          "displayOrder": 0,
+          "logoFileName": null,
+          "logoSourceUrl": null,
+          "children": [
+            {
+              "id": "universe-difuzedbv-department-239737",
+              "name": "Men YF T-Shirts Polos incl sleeveless Tops (705)",
+              "aliases": [
+                "Men YF T-Shirts Polos incl sleeveless Tops (705)",
+                "Men YF T-Shirts Polos incl sleeveless Tops (705)"
+              ],
+              "departmentNames": [
+                "Men YF T-Shirts Polos incl sleeveless Tops (705)"
+              ],
+              "universeValueId": 239737,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 29,
+              "children": []
+            }
+          ],
+          "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+          "evidenceProductCount": 29,
+          "erpMarkRecords": [
+            {
+              "RecId": 83,
+              "MarkName": "DIF",
+              "Explanation": "DIFUZED BV",
+              "InUse": 1,
+              "UD_Line": "ND004"
+            }
+          ],
+          "erpMarkIds": [
+            83
+          ],
+          "erpMarkCodes": [
+            "DIF"
+          ],
+          "kind": "erp-brand",
+          "parentBrandId": "universe-brand-ca",
+          "relationshipSource": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu"
+        },
+        {
+          "id": "universe-brand-nyapparel",
+          "name": "NY APPAREL",
+          "universeBrandIds": [
+            34
+          ],
+          "erpAliases": [
+            "NY APPAREL"
+          ],
+          "aliases": [
+            "NY APPAREL"
+          ],
+          "displayOrder": 0,
+          "logoFileName": null,
+          "logoSourceUrl": null,
+          "children": [
+            {
+              "id": "universe-nyapparel-department-1552195",
+              "name": "NY APPAREL TOPS",
+              "aliases": [
+                "NY APPAREL TOPS",
+                "NY APPAREL TOPS"
+              ],
+              "departmentNames": [
+                "NY APPAREL TOPS"
+              ],
+              "universeValueId": 1552195,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 9,
+              "children": []
+            }
+          ],
+          "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+          "evidenceProductCount": 9,
+          "erpMarkRecords": [
+            {
+              "RecId": 99,
+              "MarkName": "NYA",
+              "Explanation": "NY APPAREL",
+              "InUse": 1,
+              "UD_Line": "ND004"
+            }
+          ],
+          "erpMarkIds": [
+            99
+          ],
+          "erpMarkCodes": [
+            "NYA"
+          ],
+          "kind": "erp-brand",
+          "parentBrandId": "universe-brand-ca",
+          "relationshipSource": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu"
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 7782,
+      "erpMarkRecords": [
+        {
+          "RecId": 5,
+          "MarkName": "C&A",
+          "Explanation": "C&A",
+          "InUse": 1,
+          "UD_Line": "ND004"
+        },
+        {
+          "RecId": 49,
+          "MarkName": "C&A",
+          "Explanation": "C&A",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        5,
+        30,
+        48,
+        49,
+        83,
+        99,
+        100
+      ],
+      "erpMarkCodes": [
+        "C&A"
+      ],
+      "logoUrl": "brand-logos/8e96c0fe-628d-48a1-ae89-cde5375618f8.png",
+      "directErpAliases": [
+        "C&A"
+      ]
+    },
+    {
+      "id": "universe-brand-zara",
+      "name": "Zara",
+      "universeBrandIds": [
+        4
+      ],
+      "erpAliases": [
+        "ZARA",
+        "Zara"
+      ],
+      "aliases": [
+        "Zara"
+      ],
+      "displayOrder": 85,
+      "logoFileName": "2c6642ff-d5db-4a67-bc66-b961851d54b7.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/2c6642ff-d5db-4a67-bc66-b961851d54b7.png",
+      "children": [
+        {
+          "id": "universe-zara-department-293558",
+          "name": "Boys",
+          "aliases": [
+            "Boys",
+            "Boys"
+          ],
+          "departmentNames": [
+            "Boys"
+          ],
+          "universeValueId": 293558,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 137,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-272",
+          "name": "Boys Fleece",
+          "aliases": [
+            "Boys Fleece",
+            "Boys Fleece"
+          ],
+          "departmentNames": [
+            "Boys Fleece"
+          ],
+          "universeValueId": 272,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 148,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1829401",
+          "name": "Boys Fleece CONOSUR",
+          "aliases": [
+            "Boys Fleece CONOSUR ",
+            "Boys Fleece CONOSUR"
+          ],
+          "departmentNames": [
+            "Boys Fleece CONOSUR "
+          ],
+          "universeValueId": 1829401,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-282",
+          "name": "Boys Pant",
+          "aliases": [
+            "Boys Pant",
+            "Boys Pant"
+          ],
+          "departmentNames": [
+            "Boys Pant"
+          ],
+          "universeValueId": 282,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 23,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-304",
+          "name": "Boys Tshirt",
+          "aliases": [
+            "Boys Tshirt",
+            "Boys Tshirt"
+          ],
+          "departmentNames": [
+            "Boys Tshirt"
+          ],
+          "universeValueId": 304,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 49,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1421833",
+          "name": "Chica 1",
+          "aliases": [
+            "Chica 1",
+            "Chica 1"
+          ],
+          "departmentNames": [
+            "Chica 1"
+          ],
+          "universeValueId": 1421833,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 630,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1412256",
+          "name": "Chica 2 (Women )",
+          "aliases": [
+            "Chica 2 (Women )",
+            "Chica 2 (Women )"
+          ],
+          "departmentNames": [
+            "Chica 2 (Women )"
+          ],
+          "universeValueId": 1412256,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1499,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1427200",
+          "name": "Chica 2 Conosur (Women )",
+          "aliases": [
+            "Chica 2 Conosur (Women )",
+            "Chica 2 Conosur (Women )"
+          ],
+          "departmentNames": [
+            "Chica 2 Conosur (Women )"
+          ],
+          "universeValueId": 1427200,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 10,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1414649",
+          "name": "Chica 3 (Trf)",
+          "aliases": [
+            "Chica 3 (Trf) ",
+            "Chica 3 (Trf)"
+          ],
+          "departmentNames": [
+            "Chica 3 (Trf) "
+          ],
+          "universeValueId": 1414649,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1523,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1422378",
+          "name": "Chica 4 (Graphic)",
+          "aliases": [
+            "Chica 4 (Graphic)",
+            "Chica 4 (Graphic)"
+          ],
+          "departmentNames": [
+            "Chica 4 (Graphic)"
+          ],
+          "universeValueId": 1422378,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-623857",
+          "name": "Girls",
+          "aliases": [
+            "Girls ",
+            "Girls"
+          ],
+          "departmentNames": [
+            "Girls "
+          ],
+          "universeValueId": 623857,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 57,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-361",
+          "name": "Girls Dress",
+          "aliases": [
+            "Girls Dress",
+            "Girls Dress"
+          ],
+          "departmentNames": [
+            "Girls Dress"
+          ],
+          "universeValueId": 361,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 20,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-413",
+          "name": "Girls Legging",
+          "aliases": [
+            "Girls Legging",
+            "Girls Legging"
+          ],
+          "departmentNames": [
+            "Girls Legging"
+          ],
+          "universeValueId": 413,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 122,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-372",
+          "name": "Girls Skirt",
+          "aliases": [
+            "Girls Skirt",
+            "Girls Skirt"
+          ],
+          "departmentNames": [
+            "Girls Skirt"
+          ],
+          "universeValueId": 372,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 10,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-388",
+          "name": "Girls Sweat",
+          "aliases": [
+            "Girls Sweat",
+            "Girls Sweat"
+          ],
+          "departmentNames": [
+            "Girls Sweat"
+          ],
+          "universeValueId": 388,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 16,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-465",
+          "name": "Girls Tshirt",
+          "aliases": [
+            "Girls Tshirt",
+            "Girls Tshirt"
+          ],
+          "departmentNames": [
+            "Girls Tshirt"
+          ],
+          "universeValueId": 465,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 24,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1822876",
+          "name": "MAN REGULAR BASIC SUPIMA",
+          "aliases": [
+            "MAN REGULAR BASIC SUPIMA",
+            "MAN REGULAR BASIC SUPIMA"
+          ],
+          "departmentNames": [
+            "MAN REGULAR BASIC SUPIMA"
+          ],
+          "universeValueId": 1822876,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 17,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-12829",
+          "name": "Men Basic",
+          "aliases": [
+            "Men Basic",
+            "Men Basic"
+          ],
+          "departmentNames": [
+            "Men Basic"
+          ],
+          "universeValueId": 12829,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 545,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-2418",
+          "name": "MEN GYMWEAR",
+          "aliases": [
+            "MEN GYMWEAR",
+            "MEN GYMWEAR"
+          ],
+          "departmentNames": [
+            "MEN GYMWEAR"
+          ],
+          "universeValueId": 2418,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 84,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-2402",
+          "name": "Men Premium",
+          "aliases": [
+            "Men Premium",
+            "Men Premium"
+          ],
+          "departmentNames": [
+            "Men Premium"
+          ],
+          "universeValueId": 2402,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1489,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1584419",
+          "name": "Men REGULAR",
+          "aliases": [
+            "Men REGULAR ",
+            "Men REGULAR"
+          ],
+          "departmentNames": [
+            "Men REGULAR "
+          ],
+          "universeValueId": 1584419,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 24,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-2484",
+          "name": "Men Street",
+          "aliases": [
+            "Men Street",
+            "Men Street"
+          ],
+          "departmentNames": [
+            "Men Street"
+          ],
+          "universeValueId": 2484,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 233,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-258896",
+          "name": "Men Trend",
+          "aliases": [
+            "Men Trend",
+            "Men Trend"
+          ],
+          "departmentNames": [
+            "Men Trend"
+          ],
+          "universeValueId": 258896,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 976,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1579482",
+          "name": "Men Trend Conosur",
+          "aliases": [
+            "Men Trend Conosur",
+            "Men Trend Conosur"
+          ],
+          "departmentNames": [
+            "Men Trend Conosur"
+          ],
+          "universeValueId": 1579482,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 4,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-488",
+          "name": "Trf",
+          "aliases": [
+            "Trf",
+            "Trf"
+          ],
+          "departmentNames": [
+            "Trf"
+          ],
+          "universeValueId": 488,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2715,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-2222",
+          "name": "Trf Conosur",
+          "aliases": [
+            "Trf Conosur",
+            "Trf Conosur"
+          ],
+          "departmentNames": [
+            "Trf Conosur"
+          ],
+          "universeValueId": 2222,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 64,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-316392",
+          "name": "TRF Graphic",
+          "aliases": [
+            "TRF Graphic",
+            "TRF Graphic"
+          ],
+          "departmentNames": [
+            "TRF Graphic"
+          ],
+          "universeValueId": 316392,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 25,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-2081",
+          "name": "Women",
+          "aliases": [
+            "Women ",
+            "Women"
+          ],
+          "departmentNames": [
+            "Women "
+          ],
+          "universeValueId": 2081,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3970,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-11288",
+          "name": "Women Conosur",
+          "aliases": [
+            "Women Conosur",
+            "Women Conosur"
+          ],
+          "departmentNames": [
+            "Women Conosur"
+          ],
+          "universeValueId": 11288,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 90,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1808357",
+          "name": "Zara Boys Egypt",
+          "aliases": [
+            "Zara Boys Egypt",
+            "Zara Boys Egypt"
+          ],
+          "departmentNames": [
+            "Zara Boys Egypt"
+          ],
+          "universeValueId": 1808357,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1807772",
+          "name": "Zara Boys Fleece Egypt",
+          "aliases": [
+            "Zara Boys Fleece Egypt",
+            "Zara Boys Fleece Egypt"
+          ],
+          "departmentNames": [
+            "Zara Boys Fleece Egypt"
+          ],
+          "universeValueId": 1807772,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 4,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1805329",
+          "name": "Zara Girls Egypt",
+          "aliases": [
+            "Zara Girls Egypt ",
+            "Zara Girls Egypt"
+          ],
+          "departmentNames": [
+            "Zara Girls Egypt "
+          ],
+          "universeValueId": 1805329,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 19,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1499001",
+          "name": "Zara Kids Accessories",
+          "aliases": [
+            "Zara Kids Accessories",
+            "Zara Kids Accessories"
+          ],
+          "departmentNames": [
+            "Zara Kids Accessories"
+          ],
+          "universeValueId": 1499001,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 126,
+          "children": []
+        },
+        {
+          "id": "universe-zara-department-1737858",
+          "name": "Zara Kids-A",
+          "aliases": [
+            "Zara Kids-A",
+            "Zara Kids-A"
+          ],
+          "departmentNames": [
+            "Zara Kids-A"
+          ],
+          "universeValueId": 1737858,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 14673,
+      "erpMarkRecords": [
+        {
+          "RecId": 6,
+          "MarkName": "ZAR",
+          "Explanation": "ZARA",
+          "InUse": 1,
+          "UD_Line": "ND002"
+        },
+        {
+          "RecId": 81,
+          "MarkName": "ZAR",
+          "Explanation": "ZARA",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        6,
+        81
+      ],
+      "erpMarkCodes": [
+        "ZAR"
+      ],
+      "logoUrl": "brand-logos/2c6642ff-d5db-4a67-bc66-b961851d54b7.png"
+    },
+    {
+      "id": "universe-brand-bershka",
+      "name": "Bershka",
+      "universeBrandIds": [
+        5
+      ],
+      "erpAliases": [
+        "BERSHKA",
+        "Bershka"
+      ],
+      "aliases": [
+        "Bershka"
+      ],
+      "displayOrder": 80,
+      "logoFileName": "f6d27b82-dccd-4f58-b6bb-a087d8c31ede.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/f6d27b82-dccd-4f58-b6bb-a087d8c31ede.png",
+      "children": [
+        {
+          "id": "universe-bershka-department-576",
+          "name": "Berhska Bottom",
+          "aliases": [
+            "Berhska Bottom",
+            "Berhska Bottom"
+          ],
+          "departmentNames": [
+            "Berhska Bottom"
+          ],
+          "universeValueId": 576,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 59,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-3277",
+          "name": "BERSHKA",
+          "aliases": [
+            "BERSHKA",
+            "BERSHKA"
+          ],
+          "departmentNames": [
+            "BERSHKA"
+          ],
+          "universeValueId": 3277,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 20,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-1830150",
+          "name": "BERSHKA EGYPT",
+          "aliases": [
+            "BERSHKA EGYPT ",
+            "BERSHKA EGYPT"
+          ],
+          "departmentNames": [
+            "BERSHKA EGYPT "
+          ],
+          "universeValueId": 1830150,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 5,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-20145",
+          "name": "Bershka Lisans",
+          "aliases": [
+            "Bershka Lisans",
+            "Bershka Lisans"
+          ],
+          "departmentNames": [
+            "Bershka Lisans"
+          ],
+          "universeValueId": 20145,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 8,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-3294",
+          "name": "Bershka Sweatshirt",
+          "aliases": [
+            "Bershka Sweatshirt",
+            "Bershka Sweatshirt"
+          ],
+          "departmentNames": [
+            "Bershka Sweatshirt"
+          ],
+          "universeValueId": 3294,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 46,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-2008",
+          "name": "Men Soft",
+          "aliases": [
+            "Men Soft",
+            "Men Soft"
+          ],
+          "departmentNames": [
+            "Men Soft"
+          ],
+          "universeValueId": 2008,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 112,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-2018",
+          "name": "Men Top",
+          "aliases": [
+            "Men Top",
+            "Men Top"
+          ],
+          "departmentNames": [
+            "Men Top"
+          ],
+          "universeValueId": 2018,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 582,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-304679",
+          "name": "Soft Wowen",
+          "aliases": [
+            "Soft Wowen",
+            "Soft Wowen"
+          ],
+          "departmentNames": [
+            "Soft Wowen"
+          ],
+          "universeValueId": 304679,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 17,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-3145",
+          "name": "Women Bottom",
+          "aliases": [
+            "Women Bottom",
+            "Women Bottom"
+          ],
+          "departmentNames": [
+            "Women Bottom"
+          ],
+          "universeValueId": 3145,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 478,
+          "children": []
+        },
+        {
+          "id": "universe-bershka-department-607",
+          "name": "Women Top",
+          "aliases": [
+            "Women Top",
+            "Women Top"
+          ],
+          "departmentNames": [
+            "Women Top"
+          ],
+          "universeValueId": 607,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3211,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 4553,
+      "erpMarkRecords": [
+        {
+          "RecId": 7,
+          "MarkName": "BER",
+          "Explanation": "BERSHKA",
+          "InUse": 1,
+          "UD_Line": "ND003"
+        }
+      ],
+      "erpMarkIds": [
+        7
+      ],
+      "erpMarkCodes": [
+        "BER"
+      ],
+      "logoUrl": "brand-logos/f6d27b82-dccd-4f58-b6bb-a087d8c31ede.png"
+    },
+    {
+      "id": "universe-brand-stradivarius",
+      "name": "Stradivarius",
+      "universeBrandIds": [
+        8
+      ],
+      "erpAliases": [
+        "STRADIVARIUS",
+        "Stradivarius"
+      ],
+      "aliases": [
+        "Stradivarius"
+      ],
+      "displayOrder": 70,
+      "logoFileName": "9f50fce5-bce9-47dc-bdc0-6bbccc20e4f4.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/9f50fce5-bce9-47dc-bdc0-6bbccc20e4f4.png",
+      "children": [
+        {
+          "id": "universe-stradivarius-department-5461",
+          "name": "Basic Top",
+          "aliases": [
+            "Basic Top ",
+            "Basic Top"
+          ],
+          "departmentNames": [
+            "Basic Top "
+          ],
+          "universeValueId": 5461,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 262,
+          "children": []
+        },
+        {
+          "id": "universe-stradivarius-department-1434655",
+          "name": "Dress",
+          "aliases": [
+            "Dress",
+            "Dress"
+          ],
+          "departmentNames": [
+            "Dress"
+          ],
+          "universeValueId": 1434655,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 66,
+          "children": []
+        },
+        {
+          "id": "universe-stradivarius-department-1435252",
+          "name": "Promotion & Fancy TOP",
+          "aliases": [
+            "Promotion & Fancy TOP ",
+            "Promotion & Fancy TOP"
+          ],
+          "departmentNames": [
+            "Promotion & Fancy TOP "
+          ],
+          "universeValueId": 1435252,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 55,
+          "children": []
+        },
+        {
+          "id": "universe-stradivarius-department-1436613",
+          "name": "Skirt/Pant",
+          "aliases": [
+            "Skirt/Pant ",
+            "Skirt/Pant"
+          ],
+          "departmentNames": [
+            "Skirt/Pant "
+          ],
+          "universeValueId": 1436613,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 9,
+          "children": []
+        },
+        {
+          "id": "universe-stradivarius-department-5449",
+          "name": "Stradivarius",
+          "aliases": [
+            "Stradivarius",
+            "Stradivarius"
+          ],
+          "departmentNames": [
+            "Stradivarius"
+          ],
+          "universeValueId": 5449,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 26,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 420,
+      "erpMarkRecords": [
+        {
+          "RecId": 8,
+          "MarkName": "STR",
+          "Explanation": "STRADIVARIUS",
+          "InUse": 1,
+          "UD_Line": "ND002"
+        },
+        {
+          "RecId": 70,
+          "MarkName": "STR",
+          "Explanation": "STRADIVARIUS",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        8,
+        70
+      ],
+      "erpMarkCodes": [
+        "STR"
+      ],
+      "logoUrl": "brand-logos/9f50fce5-bce9-47dc-bdc0-6bbccc20e4f4.png"
+    },
+    {
+      "id": "universe-brand-primark",
+      "name": "PRIMARK",
+      "universeBrandIds": [
+        3
+      ],
+      "erpAliases": [
+        "PRIMARK",
+        "Primark"
+      ],
+      "aliases": [
+        "Primark"
+      ],
+      "displayOrder": 60,
+      "logoFileName": "865deb9c-e9b2-437e-acdd-3b35a7bf4030.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/865deb9c-e9b2-437e-acdd-3b35a7bf4030.png",
+      "children": [
+        {
+          "id": "universe-primark-department-2057",
+          "name": "Dress & Skirt",
+          "aliases": [
+            "Dress & Skirt",
+            "Dress & Skirt"
+          ],
+          "departmentNames": [
+            "Dress & Skirt"
+          ],
+          "universeValueId": 2057,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1215,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-1595290",
+          "name": "Girls Denim & Trousers",
+          "aliases": [
+            "Girls Denim & Trousers",
+            "Girls Denim & Trousers"
+          ],
+          "departmentNames": [
+            "Girls Denim & Trousers"
+          ],
+          "universeValueId": 1595290,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 4,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-8073",
+          "name": "Ladies Clothing (08-28-81)",
+          "aliases": [
+            "Ladies Clothing (08-28-81)",
+            "Ladies Clothing (08-28-81)"
+          ],
+          "departmentNames": [
+            "Ladies Clothing (08-28-81)"
+          ],
+          "universeValueId": 8073,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 4,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-1609433",
+          "name": "Ladies Contemporary",
+          "aliases": [
+            "Ladies Contemporary",
+            "Ladies Contemporary"
+          ],
+          "departmentNames": [
+            "Ladies Contemporary"
+          ],
+          "universeValueId": 1609433,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 119,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-251",
+          "name": "Ladies Top Jersey Hanging",
+          "aliases": [
+            "Ladies Top Jersey Hanging",
+            "Ladies Top Jersey Hanging"
+          ],
+          "departmentNames": [
+            "Ladies Top Jersey Hanging"
+          ],
+          "universeValueId": 251,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 1231,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-1630217",
+          "name": "Ladies Youth",
+          "aliases": [
+            "Ladies Youth",
+            "Ladies Youth"
+          ],
+          "departmentNames": [
+            "Ladies Youth"
+          ],
+          "universeValueId": 1630217,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 106,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-6314",
+          "name": "Sweat Bottoms",
+          "aliases": [
+            "Sweat Bottoms",
+            "Sweat Bottoms"
+          ],
+          "departmentNames": [
+            "Sweat Bottoms"
+          ],
+          "universeValueId": 6314,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 123,
+          "children": []
+        },
+        {
+          "id": "universe-primark-department-7703",
+          "name": "Sweat Tops",
+          "aliases": [
+            "Sweat Tops",
+            "Sweat Tops"
+          ],
+          "departmentNames": [
+            "Sweat Tops"
+          ],
+          "universeValueId": 7703,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 486,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 3289,
+      "erpMarkRecords": [
+        {
+          "RecId": 10,
+          "MarkName": "PRI",
+          "Explanation": "PRIMARK",
+          "InUse": 1,
+          "UD_Line": "ND004"
+        },
+        {
+          "RecId": 65,
+          "MarkName": "PRI",
+          "Explanation": "PRIMARK",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        10,
+        65
+      ],
+      "erpMarkCodes": [
+        "PRI"
+      ],
+      "logoUrl": "brand-logos/865deb9c-e9b2-437e-acdd-3b35a7bf4030.png",
+      "directErpAliases": [
+        "PRIMARK",
+        "Primark"
+      ]
+    },
+    {
+      "id": "universe-brand-reserved",
+      "name": "Reserved",
+      "universeBrandIds": [
+        6
+      ],
+      "erpAliases": [
+        "RESERVED",
+        "Reserved"
+      ],
+      "aliases": [
+        "Reserved"
+      ],
+      "displayOrder": 50,
+      "logoFileName": "d60e7d46-5fc6-4c3f-a60e-2c934b6a64bc.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/d60e7d46-5fc6-4c3f-a60e-2c934b6a64bc.png",
+      "children": [
+        {
+          "id": "universe-reserved-department-15296",
+          "name": "Boys Jogging Top",
+          "aliases": [
+            "Boys Jogging Top",
+            "Boys Jogging Top"
+          ],
+          "departmentNames": [
+            "Boys Jogging Top"
+          ],
+          "universeValueId": 15296,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 8,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-1479423",
+          "name": "Girls Jogging Top",
+          "aliases": [
+            "Girls Jogging Top",
+            "Girls Jogging Top"
+          ],
+          "departmentNames": [
+            "Girls Jogging Top"
+          ],
+          "universeValueId": 1479423,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-597",
+          "name": "Ladies  Dress",
+          "aliases": [
+            "Ladies  Dress",
+            "Ladies  Dress"
+          ],
+          "departmentNames": [
+            "Ladies  Dress"
+          ],
+          "universeValueId": 597,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 18,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-1476119",
+          "name": "Ladies Dress",
+          "aliases": [
+            "Ladies Dress",
+            "Ladies Dress"
+          ],
+          "departmentNames": [
+            "Ladies Dress"
+          ],
+          "universeValueId": 1476119,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 35,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-7233",
+          "name": "Ladies Jogging Top Sweat Set",
+          "aliases": [
+            "Ladies Jogging Top Sweat Set",
+            "Ladies Jogging Top Sweat Set"
+          ],
+          "departmentNames": [
+            "Ladies Jogging Top Sweat Set"
+          ],
+          "universeValueId": 7233,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 19,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-2047",
+          "name": "Ladies Top",
+          "aliases": [
+            "Ladies Top",
+            "Ladies Top"
+          ],
+          "departmentNames": [
+            "Ladies Top"
+          ],
+          "universeValueId": 2047,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 75,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-2199",
+          "name": "Men Jogging Top/Knitted Trousers",
+          "aliases": [
+            "Men Jogging Top/Knitted Trousers",
+            "Men Jogging Top/Knitted Trousers"
+          ],
+          "departmentNames": [
+            "Men Jogging Top/Knitted Trousers"
+          ],
+          "universeValueId": 2199,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 24,
+          "children": []
+        },
+        {
+          "id": "universe-reserved-department-2024",
+          "name": "Men Tshirt",
+          "aliases": [
+            "Men Tshirt",
+            "Men Tshirt"
+          ],
+          "departmentNames": [
+            "Men Tshirt"
+          ],
+          "universeValueId": 2024,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 110,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 292,
+      "erpMarkRecords": [
+        {
+          "RecId": 11,
+          "MarkName": "RSV",
+          "Explanation": "RESERVED",
+          "InUse": 1,
+          "UD_Line": "ND004"
+        },
+        {
+          "RecId": 68,
+          "MarkName": "RSV",
+          "Explanation": "RESERVED",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        11,
+        68
+      ],
+      "erpMarkCodes": [
+        "RSV"
+      ],
+      "logoUrl": "brand-logos/d60e7d46-5fc6-4c3f-a60e-2c934b6a64bc.png"
+    },
+    {
+      "id": "universe-brand-george",
+      "name": "GEORGE",
+      "universeBrandIds": [
+        7
+      ],
+      "erpAliases": [
+        "GEORGE"
+      ],
+      "aliases": [
+        "GEORGE"
+      ],
+      "displayOrder": 40,
+      "logoFileName": "a6005e19-2afb-43e7-a9a5-bbc7632555f3.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/a6005e19-2afb-43e7-a9a5-bbc7632555f3.png",
+      "children": [
+        {
+          "id": "universe-george-department-18851",
+          "name": "G21",
+          "aliases": [
+            "G21",
+            "G21"
+          ],
+          "departmentNames": [
+            "G21"
+          ],
+          "universeValueId": 18851,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 20,
+          "children": []
+        },
+        {
+          "id": "universe-george-department-7035",
+          "name": "Ladies",
+          "aliases": [
+            "Ladies",
+            "Ladies"
+          ],
+          "departmentNames": [
+            "Ladies"
+          ],
+          "universeValueId": 7035,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 335,
+          "children": []
+        },
+        {
+          "id": "universe-george-department-2472",
+          "name": "Maternity",
+          "aliases": [
+            "Maternity",
+            "Maternity"
+          ],
+          "departmentNames": [
+            "Maternity"
+          ],
+          "universeValueId": 2472,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 357,
+      "erpMarkRecords": [
+        {
+          "RecId": 34,
+          "MarkName": "GEO",
+          "Explanation": "GEORGE",
+          "InUse": 1,
+          "UD_Line": "ND004"
+        },
+        {
+          "RecId": 53,
+          "MarkName": "GEO",
+          "Explanation": "GEORGE",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        34,
+        53
+      ],
+      "erpMarkCodes": [
+        "GEO"
+      ],
+      "logoUrl": "brand-logos/a6005e19-2afb-43e7-a9a5-bbc7632555f3.png"
+    },
+    {
+      "id": "universe-brand-arle",
+      "name": "ARLE",
+      "universeBrandIds": [
+        38
+      ],
+      "erpAliases": [
+        "A BRAND",
+        "A Brand",
+        "Arle"
+      ],
+      "aliases": [
+        "Arle"
+      ],
+      "displayOrder": 0,
+      "logoFileName": null,
+      "logoSourceUrl": null,
+      "children": [
+        {
+          "id": "universe-arle-department-1743328",
+          "name": "City Line",
+          "aliases": [
+            "City Line",
+            "City Line"
+          ],
+          "departmentNames": [
+            "City Line"
+          ],
+          "universeValueId": 1743328,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 8,
+          "children": []
+        },
+        {
+          "id": "universe-arle-department-1791799",
+          "name": "Studio Line",
+          "aliases": [
+            "Studio Line",
+            "Studio Line"
+          ],
+          "departmentNames": [
+            "Studio Line"
+          ],
+          "universeValueId": 1791799,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 28,
+          "children": []
+        },
+        {
+          "id": "universe-brand-abrand",
+          "name": "A BRAND",
+          "universeBrandIds": [
+            33
+          ],
+          "erpAliases": [
+            "A BRAND",
+            "A Brand"
+          ],
+          "aliases": [
+            "A Brand"
+          ],
+          "displayOrder": 0,
+          "logoFileName": null,
+          "logoSourceUrl": null,
+          "children": [
+            {
+              "id": "universe-abrand-department-1507446",
+              "name": "A Brand Department",
+              "aliases": [
+                "A Brand Department",
+                "A Brand Department"
+              ],
+              "departmentNames": [
+                "A Brand Department"
+              ],
+              "universeValueId": 1507446,
+              "sourceAttribute": "DepartmentName",
+              "evidenceProductCount": 37,
+              "children": []
+            }
+          ],
+          "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+          "evidenceProductCount": 37,
+          "erpMarkRecords": [],
+          "erpMarkIds": [],
+          "erpMarkCodes": [],
+          "kind": "erp-brand",
+          "parentBrandId": "universe-brand-arle",
+          "relationshipSource": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu"
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 36,
+      "erpMarkRecords": [
+        {
+          "RecId": 98,
+          "MarkName": "ABR",
+          "Explanation": "Arle",
+          "InUse": 1,
+          "UD_Line": "ND001"
+        }
+      ],
+      "erpMarkIds": [
+        98
+      ],
+      "erpMarkCodes": [
+        "ABR"
+      ],
+      "directErpAliases": [
+        "Arle"
+      ]
+    },
+    {
+      "id": "universe-brand-lcwaikiki",
+      "name": "Lc Waikiki",
+      "universeBrandIds": [
+        30
+      ],
+      "erpAliases": [
+        "LC WAIKIKI",
+        "LC WAIKIKI-",
+        "Lc Waikiki"
+      ],
+      "aliases": [
+        "Lc Waikiki"
+      ],
+      "displayOrder": 0,
+      "logoFileName": null,
+      "logoSourceUrl": null,
+      "children": [
+        {
+          "id": "universe-lcwaikiki-department-623991",
+          "name": "KADIN ÖRME",
+          "aliases": [
+            "KADIN ÖRME",
+            "KADIN ÖRME"
+          ],
+          "departmentNames": [
+            "KADIN ÖRME"
+          ],
+          "universeValueId": 623991,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 2,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 2,
+      "erpMarkRecords": [
+        {
+          "RecId": 56,
+          "MarkName": "LCW",
+          "Explanation": "LC WAIKIKI",
+          "InUse": 1,
+          "UD_Line": null
+        },
+        {
+          "RecId": 24,
+          "MarkName": "LCW",
+          "Explanation": "LC WAIKIKI-",
+          "InUse": 0,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        56,
+        24
+      ],
+      "erpMarkCodes": [
+        "LCW"
+      ]
+    },
+    {
+      "id": "universe-brand-pullbear",
+      "name": "PULL AND BEAR",
+      "universeBrandIds": [
+        14
+      ],
+      "erpAliases": [
+        "PULL & BEAR",
+        "PULL AND BEAR",
+        "PULL&BEAR"
+      ],
+      "aliases": [
+        "PULL&BEAR"
+      ],
+      "displayOrder": 0,
+      "logoFileName": null,
+      "logoSourceUrl": null,
+      "children": [
+        {
+          "id": "universe-pullbear-department-256427",
+          "name": "PULL AND BEAR",
+          "aliases": [
+            "PULL AND BEAR ",
+            "PULL AND BEAR"
+          ],
+          "departmentNames": [
+            "PULL AND BEAR "
+          ],
+          "universeValueId": 256427,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 51,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 51,
+      "erpMarkRecords": [
+        {
+          "RecId": 15,
+          "MarkName": "PUL",
+          "Explanation": "PULL&BEAR",
+          "InUse": 1,
+          "UD_Line": "ND002"
+        },
+        {
+          "RecId": 66,
+          "MarkName": "PUL",
+          "Explanation": "PULL&BEAR",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        15,
+        66
+      ],
+      "erpMarkCodes": [
+        "PUL"
+      ],
+      "directErpAliases": [
+        "PULL&BEAR"
+      ]
+    },
+    {
+      "id": "universe-brand-treadler",
+      "name": "TREADLER",
+      "universeBrandIds": [
+        23
+      ],
+      "erpAliases": [
+        "TREADLER"
+      ],
+      "aliases": [
+        "TREADLER"
+      ],
+      "displayOrder": 0,
+      "logoFileName": null,
+      "logoSourceUrl": null,
+      "children": [
+        {
+          "id": "universe-treadler-department-276230",
+          "name": "NPG LADIES",
+          "aliases": [
+            "NPG LADIES",
+            "NPG LADIES"
+          ],
+          "departmentNames": [
+            "NPG LADIES"
+          ],
+          "universeValueId": 276230,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 49,
+          "children": []
+        },
+        {
+          "id": "universe-treadler-department-276515",
+          "name": "Weav (9740)",
+          "aliases": [
+            "Weav (9740)",
+            "Weav (9740)"
+          ],
+          "departmentNames": [
+            "Weav (9740)"
+          ],
+          "universeValueId": 276515,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 3,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 52,
+      "erpMarkRecords": [
+        {
+          "RecId": 19,
+          "MarkName": "TRE",
+          "Explanation": "TREADLER",
+          "InUse": 1,
+          "UD_Line": "ND001"
+        }
+      ],
+      "erpMarkIds": [
+        19
+      ],
+      "erpMarkCodes": [
+        "TRE"
+      ]
+    },
+    {
+      "id": "universe-brand-unitrendarge",
+      "name": "UniTrend ARGE",
+      "universeBrandIds": [
+        11
+      ],
+      "erpAliases": [
+        "UNITREND ARGE",
+        "UniTrend ARGE"
+      ],
+      "aliases": [
+        "UniTrend ARGE"
+      ],
+      "displayOrder": 0,
+      "logoFileName": "01684049-076a-4fbc-97ba-2a1d634b4999.png",
+      "logoSourceUrl": "https://uniteksverse.blob.core.windows.net/files/01684049-076a-4fbc-97ba-2a1d634b4999.png",
+      "children": [
+        {
+          "id": "universe-unitrendarge-department-142485",
+          "name": "UniTrend ARGE",
+          "aliases": [
+            "UniTrend ARGE",
+            "UniTrend ARGE"
+          ],
+          "departmentNames": [
+            "UniTrend ARGE"
+          ],
+          "universeValueId": 142485,
+          "sourceAttribute": "DepartmentName",
+          "evidenceProductCount": 137,
+          "children": []
+        }
+      ],
+      "evidence": "Catalog_Product.BrandId -> Catalog_Brand.Id; Catalog_ProductAttributeValue -> Catalog_ProductValue -> Catalog_ProductAttribute.Name=DepartmentName",
+      "evidenceProductCount": 137,
+      "erpMarkRecords": [
+        {
+          "RecId": 40,
+          "MarkName": "TRD",
+          "Explanation": "UNITREND ARGE",
+          "InUse": 1,
+          "UD_Line": "ND001"
+        },
+        {
+          "RecId": 72,
+          "MarkName": "TRD",
+          "Explanation": "UNITREND ARGE",
+          "InUse": 1,
+          "UD_Line": null
+        }
+      ],
+      "erpMarkIds": [
+        40,
+        72
+      ],
+      "erpMarkCodes": [
+        "TRD"
+      ],
+      "logoUrl": "brand-logos/01684049-076a-4fbc-97ba-2a1d634b4999.png"
+    }
+  ],
+  "evidence": {
+    "catalogBrandRows": 34,
+    "uniqueBrandNames": 18,
+    "brandDepartmentEdges": 216,
+    "hasBrandParentColumn": false,
+    "noCollectionsImported": true,
+    "relationship": "Product.BrandId with product attribute DepartmentName, not Collection rows",
+    "duplicateCatalogBrandIdsMergedByNormalizedName": {
+      "difuzedbv": [
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        31,
+        32
+      ]
+    },
+    "aliasConflicts": [
+      {
+        "brandId": 4,
+        "brandName": "Zara",
+        "attributeValueId": 142481,
+        "conflictingMarkExplanation": "UniTrend ARGE",
+        "productCount": 1,
+        "resolution": "Preserved as source inconsistency; not treated as an alias or parent relationship."
+      }
+    ]
+  },
+  "erpCatalog": {
+    "source": "ERP dbo.IM_Mark, all non-deleted rows, provided by ERP research agent",
+    "totalRows": 97,
+    "matchedRows": 29,
+    "matchingRule": "Exact normalized Explanation to verified main-brand aliases; preserves all original ERP IDs. No inferred parent for unmatched rows.",
+    "unmatchedMarks": [
+      {
+        "RecId": 43,
+        "MarkName": "ALL",
+        "Explanation": "ALL",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 45,
+        "MarkName": "ALL",
+        "Explanation": "ALL",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 88,
+        "MarkName": "RF05",
+        "Explanation": "BASKI",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 46,
+        "MarkName": "BER",
+        "Explanation": "BER",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 29,
+        "MarkName": "BRA",
+        "Explanation": "BRANDDESING SA",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 47,
+        "MarkName": "BRA",
+        "Explanation": "BRANDDESING SA",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 85,
+        "MarkName": "RF02",
+        "Explanation": "CMT",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 31,
+        "MarkName": "COB",
+        "Explanation": "COOKING BRANDS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 50,
+        "MarkName": "COB",
+        "Explanation": "COOKING BRANDS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 23,
+        "MarkName": "DIG",
+        "Explanation": "DIGER",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 51,
+        "MarkName": "DIG",
+        "Explanation": "DIGER",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 22,
+        "MarkName": "DYN",
+        "Explanation": "DYNAMO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 52,
+        "MarkName": "DYN",
+        "Explanation": "DYNAMO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 82,
+        "MarkName": "FAS",
+        "Explanation": "FASHION UK GERMANY GMBH",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 42,
+        "MarkName": "HEM",
+        "Explanation": "HEMA BV",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 54,
+        "MarkName": "HEM",
+        "Explanation": "HEMA BV",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 95,
+        "MarkName": "RF12",
+        "Explanation": "İKİNCİ KALİTE GÖNDERİM",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 91,
+        "MarkName": "RF08",
+        "Explanation": "İŞLETME İÇİ",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 103,
+        "MarkName": "J&J",
+        "Explanation": "Jack & Jones",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 97,
+        "MarkName": "JFG",
+        "Explanation": "JANSEN FASHION GROUP",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 41,
+        "MarkName": "KIA",
+        "Explanation": "KIABI",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 55,
+        "MarkName": "KIA",
+        "Explanation": "KIABI",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 93,
+        "MarkName": "RF10",
+        "Explanation": "LABORATUVAR",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 12,
+        "MarkName": "LEF",
+        "Explanation": "LEFTIES",
+        "InUse": 1,
+        "UD_Line": "ND002"
+      },
+      {
+        "RecId": 57,
+        "MarkName": "LEF",
+        "Explanation": "LEFTIES",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 92,
+        "MarkName": "RF09",
+        "Explanation": "MAĞAZA ÇIKIŞ",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 13,
+        "MarkName": "MAN",
+        "Explanation": "MANGO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 58,
+        "MarkName": "MAN",
+        "Explanation": "MANGO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 21,
+        "MarkName": "MAS",
+        "Explanation": "MASSIMO DUTTI",
+        "InUse": 1,
+        "UD_Line": "ND002"
+      },
+      {
+        "RecId": 59,
+        "MarkName": "MAS",
+        "Explanation": "MASSIMO DUTTI",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 20,
+        "MarkName": "MAT",
+        "Explanation": "MATALAN",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 60,
+        "MarkName": "MAT",
+        "Explanation": "MATALAN",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 94,
+        "MarkName": "RF11",
+        "Explanation": "MODELHANE ÇIKIŞ",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 18,
+        "MarkName": "MRC",
+        "Explanation": "MOTEL ROCKS",
+        "InUse": 1,
+        "UD_Line": "ND003"
+      },
+      {
+        "RecId": 61,
+        "MarkName": "MRC",
+        "Explanation": "MOTEL ROCKS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 89,
+        "MarkName": "RF06",
+        "Explanation": "NAKIŞ",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 9,
+        "MarkName": "NWL",
+        "Explanation": "NEW LOOK",
+        "InUse": 1,
+        "UD_Line": "ND004"
+      },
+      {
+        "RecId": 62,
+        "MarkName": "NWL",
+        "Explanation": "NEW LOOK",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 14,
+        "MarkName": "OYS",
+        "Explanation": "OYSHO",
+        "InUse": 1,
+        "UD_Line": "ND002"
+      },
+      {
+        "RecId": 63,
+        "MarkName": "OYS",
+        "Explanation": "OYSHO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 90,
+        "MarkName": "RF07",
+        "Explanation": "PARÇA BOYA",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 36,
+        "MarkName": "PEP",
+        "Explanation": "PEP & CO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 64,
+        "MarkName": "PEP",
+        "Explanation": "PEP & CO",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 25,
+        "MarkName": "RHL",
+        "Explanation": "RODIN HILLS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 67,
+        "MarkName": "RHL",
+        "Explanation": "RODIN HILLS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 86,
+        "MarkName": "RF03",
+        "Explanation": "SHOWROOM",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 26,
+        "MarkName": "STD",
+        "Explanation": "STADIUM",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 69,
+        "MarkName": "STD",
+        "Explanation": "STADIUM",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 35,
+        "MarkName": "TOF",
+        "Explanation": "TAKE OFF",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 71,
+        "MarkName": "TOF",
+        "Explanation": "TAKE OFF",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 87,
+        "MarkName": "RF04",
+        "Explanation": "TEST ANALİZ",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 73,
+        "MarkName": "TRE",
+        "Explanation": "TRE",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 38,
+        "MarkName": "TUV",
+        "Explanation": "TUVAL SANAT GALERİSİ TEKS.TUR.SAN.TİC.LTD.ŞTİ.",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 74,
+        "MarkName": "TUV",
+        "Explanation": "TUVAL SANAT GALERİSİ TEKS.TUR.SAN.TİC.LTD.ŞTİ.",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 28,
+        "MarkName": "UEX",
+        "Explanation": "UEX",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 75,
+        "MarkName": "UEX",
+        "Explanation": "UEX",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 32,
+        "MarkName": "UNR",
+        "Explanation": "UNITED RETAIL",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 77,
+        "MarkName": "UNR",
+        "Explanation": "UNITED RETAIL",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 16,
+        "MarkName": "UNI",
+        "Explanation": "UNITEKS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 76,
+        "MarkName": "UNI",
+        "Explanation": "UNITEKS",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 84,
+        "MarkName": "RF01",
+        "Explanation": "VALİZ",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 27,
+        "MarkName": "VER",
+        "Explanation": "VERBURG",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 78,
+        "MarkName": "VER",
+        "Explanation": "VERBURG",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 17,
+        "MarkName": "WEF",
+        "Explanation": "WE FASHION",
+        "InUse": 1,
+        "UD_Line": "ND003"
+      },
+      {
+        "RecId": 79,
+        "MarkName": "WEF",
+        "Explanation": "WE FASHION",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 80,
+        "MarkName": "YAM",
+        "Explanation": "YAM",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 39,
+        "MarkName": "YAM",
+        "Explanation": "YAMAMAY",
+        "InUse": 1,
+        "UD_Line": null
+      },
+      {
+        "RecId": 96,
+        "MarkName": "RF13",
+        "Explanation": "YURT DIŞI OFİS",
+        "InUse": 1,
+        "UD_Line": null
+      }
+    ]
+  },
+  "brandParentOverrides": {
+    "schemaVersion": 1,
+    "source": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu",
+    "scope": "ERP marka bağlılıkları; departman, koleksiyon veya dikim grubu değildir.",
+    "relationships": [
+      {
+        "brand": "HOUSE",
+        "parent": "C&A",
+        "aliases": [
+          "HOUSE"
+        ]
+      },
+      {
+        "brand": "BRAVADO",
+        "parent": "C&A",
+        "aliases": [
+          "BRAVADO"
+        ]
+      },
+      {
+        "brand": "DIFUZED BV",
+        "parent": "C&A",
+        "aliases": [
+          "DIFUZED BV"
+        ]
+      },
+      {
+        "brand": "PRIMARK",
+        "parent": "PRIMARK",
+        "aliases": [
+          "PRIMARK"
+        ]
+      },
+      {
+        "brand": "NY APPAREL",
+        "parent": "C&A",
+        "aliases": [
+          "NY APPAREL"
+        ]
+      },
+      {
+        "brand": "PULL AND BEAR",
+        "parent": "PULL AND BEAR",
+        "aliases": [
+          "PULL AND BEAR",
+          "PULL&BEAR",
+          "PULL & BEAR"
+        ]
+      },
+      {
+        "brand": "A BRAND",
+        "parent": "ARLE",
+        "aliases": [
+          "A BRAND"
+        ]
+      }
+    ]
+  }
+}

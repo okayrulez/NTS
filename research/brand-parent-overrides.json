@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": "Kullanıcının 17 Kasım 2026 tarihinde ilettiği Elif ÖZBAYRAK marka bağlılık tablosu",
+  "scope": "ERP marka bağlılıkları; departman, koleksiyon veya dikim grubu değildir.",
+  "relationships": [
+    {"brand": "HOUSE", "parent": "C&A", "aliases": ["HOUSE"]},
+    {"brand": "BRAVADO", "parent": "C&A", "aliases": ["BRAVADO"]},
+    {"brand": "DIFUZED BV", "parent": "C&A", "aliases": ["DIFUZED BV"]},
+    {"brand": "PRIMARK", "parent": "PRIMARK", "aliases": ["PRIMARK"]},
+    {"brand": "NY APPAREL", "parent": "C&A", "aliases": ["NY APPAREL"]},
+    {"brand": "PULL AND BEAR", "parent": "PULL AND BEAR", "aliases": ["PULL AND BEAR", "PULL&BEAR", "PULL & BEAR"]},
+    {"brand": "A BRAND", "parent": "ARLE", "aliases": ["A BRAND"]}
+  ]
+}
