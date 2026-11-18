@@ -1,4 +1,4 @@
-# NumuneTakip V2
+# NTS
 
 ERP barkod hareketlerini ve Canva tasarımlarını bir araya getiren yerel numune takip uygulaması.
 
@@ -64,4 +64,4 @@ npm test
 - ERP bağlantısı olmadan ekran açılabilir; canlı üretim verisi için kurum ağına ve yetkili bağlantı ayarlarına ihtiyaç vardır. Bu depo boş başlangıç verileri içerir.
 - Marka bağlılıklarının kaynağı `research/brand-parent-overrides.json`; dağıtılan taksonomi `dist/brand-taxonomy.json` dosyasıdır.
 
-Özel kaynak deposu. Herhangi bir açık kaynak lisansı verilmemiştir.
+Herhangi bir açık kaynak lisansı verilmemiştir.
