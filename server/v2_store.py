@@ -6,6 +6,7 @@ class Store:
     def __init__(self,path):
         self.path=pathlib.Path(path);self.path.parent.mkdir(exist_ok=True,parents=True)
         with self.connect() as db:
+            db.execute('CREATE TABLE IF NOT EXISTS followups (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
             db.execute('CREATE TABLE IF NOT EXISTS collections (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
             db.execute('CREATE TABLE IF NOT EXISTS models (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
             db.execute('CREATE TABLE IF NOT EXISTS sewing_groups (id TEXT PRIMARY KEY,payload TEXT NOT NULL)')
@@ -17,9 +18,12 @@ class Store:
             db.execute('PRAGMA journal_mode=WAL')
             with db:yield db
         finally:db.close()
+    def followup_state(self):
+        with self.connect() as db:
+            return {key:json.loads(value) for key,value in db.execute('SELECT id,payload FROM followups')}
     def state(self):
         with self.connect() as db:
-            return {'collections':[json.loads(x[0]) for x in db.execute('SELECT payload FROM collections')],'models':[json.loads(x[0]) for x in db.execute('SELECT payload FROM models')],'groups':[json.loads(x[0]) for x in db.execute('SELECT payload FROM sewing_groups')],'processSettings':[json.loads(x[0]) for x in db.execute('SELECT payload FROM process_settings')]}
+            return {'followups':{key:json.loads(value) for key,value in db.execute('SELECT id,payload FROM followups')},'collections':[json.loads(x[0]) for x in db.execute('SELECT payload FROM collections')],'models':[json.loads(x[0]) for x in db.execute('SELECT payload FROM models')],'groups':[json.loads(x[0]) for x in db.execute('SELECT payload FROM sewing_groups')],'processSettings':[json.loads(x[0]) for x in db.execute('SELECT payload FROM process_settings')]}
     def put_collection(self,data):
         if not isinstance(data,dict):raise ValueError('Geçersiz koleksiyon.')
         name=str(data.get('name','')).strip()
@@ -31,25 +35,55 @@ class Store:
             row={**old,'id':ident,'name':name,'brandId':str(data.get('brandId',old.get('brandId',''))),'branchId':str(data.get('branchId',old.get('branchId',''))),'status':data.get('status',old.get('status','auto')),'modelKeys':list(dict.fromkeys(str(x) for x in data.get('modelKeys',old.get('modelKeys',[])))),'updatedAt':datetime.datetime.now(datetime.timezone.utc).isoformat()}
             if row['status'] not in ('auto','active','paused','completed','archived'):raise ValueError('Geçersiz koleksiyon durumu.')
             if len(row['modelKeys'])>10000:raise ValueError('Çok fazla model seçildi.')
-            for key in ('designer','modelhouseManager','canvaDesignId','canvaUpdatedAt','canvaWatch','canvaError','canvaSyncedAt'):
+            for key in ('designer','modelhouseManager','canvaAccount','canvaDesignId','canvaUpdatedAt','canvaWatch','canvaError','canvaSyncedAt','canvaTitle','canvaSlides','canvaSourceAt','canvaFingerprints','canvaBaselineCandidate'):
                 if key in data:row[key]=data[key]
             db.execute('INSERT OR REPLACE INTO collections VALUES (?,?)',(ident,json.dumps(row,ensure_ascii=False)))
         return row
     def put_models(self,models):
         with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
             for row in models:
                 existing=db.execute('SELECT payload FROM models WHERE id=?',(row['id'],)).fetchone()
                 previous=json.loads(existing[0]) if existing else {}
                 if previous.get('manualLink') and not row.get('manualLink'):row={**row,'erpModelKey':previous.get('erpModelKey'),'manualLink':True}
+                if previous.get('handoff'):row={**row,'handoff':previous['handoff']}
                 db.execute('INSERT OR REPLACE INTO models VALUES (?,?)',(row['id'],json.dumps(row,ensure_ascii=False)))
     def link_model(self,ident,key):
         if not isinstance(key,str) or not key.startswith('erp-model:'):raise ValueError('Bir ERP modeli seç.')
         with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
             old=db.execute('SELECT payload FROM models WHERE id=?',(ident,)).fetchone()
             if not old:raise ValueError('Model bulunamadı.')
-            row=json.loads(old[0]);row['erpModelKey']=key;row['manualLink']=True
+            row=json.loads(old[0])
+            if row.get('retired'):raise ValueError('Tasarım ürünü arşivlenmiş.')
+            if row.get('erpModelKey')!=key:row.pop('handoff',None)
+            row['erpModelKey']=key;row['manualLink']=True
             db.execute('UPDATE models SET payload=? WHERE id=?',(json.dumps(row,ensure_ascii=False),ident))
         return row
+
+    def handoff_model(self, ident, key, note, erp_rows=None):
+        note = str(note or '').strip()
+        if len(note) > 2000:
+            raise ValueError('Tasarım kararı en fazla 2000 karakter olabilir.')
+        with self.connect() as db:
+            db.execute('BEGIN IMMEDIATE')
+            item = db.execute('SELECT payload FROM models WHERE id=?', (ident,)).fetchone()
+            model = json.loads(item[0]) if item else {}
+            if erp_rows is not None and model:
+                from canva_sync import resolve_production_models
+                resolve_production_models([model], erp_rows)
+            if model.get('retired') or model.get('erpModelKey') != key:
+                raise ValueError('Önce tasarımı mevcut bir ERP modeliyle eşleştir.')
+            previous = model.get('handoff') or {}
+            if previous.get('erpModelKey') == key and previous.get('note') == note:
+                return model
+            model['handoff'] = {
+                'erpModelKey': key, 'note': note,
+                'at': datetime.datetime.now(datetime.timezone.utc).isoformat(),
+            }
+            model['manualLink'] = True
+            db.execute('UPDATE models SET payload=? WHERE id=?', (json.dumps(model, ensure_ascii=False), ident))
+            return model
 
     def put_group(self,data):
         name=str(data.get('name','')).strip()

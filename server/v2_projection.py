@@ -2,6 +2,7 @@
 from barcode_tracking import build_barcode_records,project,event_stage
 from matching import candidates,norm
 from collections import Counter
+from monthly import moment
 from process_rules import project_row
 from voucher_rules import normalize_vouchers
 
@@ -68,6 +69,14 @@ def build_v2_records(raw,sources,photo_exists):
         # Preserve PatternNo from serial query when the item select did not contain it.
         if serial:item={**item,'PatternNo':serial.get('PatternNo',item.get('PatternNo'))}
         project_row(row,item,serial,history.get(row['erp'].get('serialCardId'),[]),bysample.get(rec,[])+byserial.get(row['erp'].get('serialCardId'),[]),settings.get(rec))
+        # Use the latest source edit for ordering, independently of the duration of this stage.
+        ref=row['erp'].get('serialCardId')
+        stamp_fields=[item.get(k) for k in ('ItemChangeAt','InsertedAt','UpdatedAt','SampleStatusAt')]
+        stamp_fields.extend((serial or {}).get(k) for k in ('SerialCreatedAt','SerialUpdatedAt'))
+        stamp_fields.extend(e.get(k) for e in history.get(ref,[]) for k in ('InsertedAt','UpdatedAt','DeletedAt','EventAt'))
+        stamp_fields.extend(v.get(k) for v in bysample.get(rec,[])+byserial.get(ref,[]) for k in ('ScopeChangedAt','LineUpdatedAt','HeaderUpdatedAt','ConfirmedTransferInsertedAt','LineInsertedAt','HeaderInsertedAt'))
+        newest=max((t for stamp in stamp_fields if (t:=moment(stamp,True)) is not None),default=None)
+        row['erp']['activityAt']=newest.isoformat() if newest else None
     analysis={'workflowVersion':3,'stages':dict(Counter(r['erp']['stage'] for r in rows)),
       'issues':dict(Counter(r['erp']['issue'] for r in rows if r['erp'].get('issue'))),
       'barcodePrintPolicy':'Barkod kartı varlığı kesim başlangıcı kabul edilir. ERP içinde ayrı baskı zamanı kaydı doğrulanmadı.',
@@ -75,4 +84,16 @@ def build_v2_records(raw,sources,photo_exists):
       'intermediateUnknown':sum(r['erp']['intermediateSelected'] is None for r in rows),
       'receiptPendingCount':sum(not v['AutomaticEligible'] for v in vouchers),'receiptEligibleCount':sum(v['AutomaticEligible'] for v in vouchers),'receiptCount':len(vouchers),'receiptLinkedCount':sum(len(r['erp']['vouchers']) for r in rows),
       'employeeNamesAvailable':any(e.get('EmployeeDisplayName') for e in events)}
+    photo_changes={f"erp-photos/{i['AttachmentId']}.jpg":str(i['PhotoChangeAt']) for i in items.values()
+                  if i.get('AttachmentId') and i.get('PhotoChangeAt')}
+    for row in rows:
+        path=row.get('erpPhoto')
+        if path in photo_changes:
+            version=''.join(c for c in photo_changes[path] if c.isdigit())
+            row['erpPhoto']=row['erp']['photo']=path+'?v='+version
+    period_models={row['erp'].get('mainRecId') for row in rows}
+    analysis['mainModels']=[{'id':i['RecId'],'model':i.get('InventoryName') or i.get('InventoryCode'),
+      'code':i.get('InventoryCode'),'brand':i.get('Brand'),'brandId':i.get('MarkId'),'department':i.get('Department'),
+      'changedAt':i['ItemChangeAt']} for i in items.values()
+      if i.get('InventoryType')==100 and i.get('ItemChangeAt') and i['RecId'] not in period_models]
     return rows,analysis

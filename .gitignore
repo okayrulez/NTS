@@ -10,7 +10,9 @@ server/cache/
 server/source-records.json
 dist/erp-photos/
 dist/canva-photos/
+dist/canva-images/
 dist/canva/
+dist/photos/
 dist/erp-snapshot.js
 dist/data.js
 *.sqlite*

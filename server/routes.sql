@@ -14,4 +14,4 @@ OUTER APPLY (
  FROM dbo.MA_RouteItem RI
  WHERE RI.RouteId=R.RecId AND ISNULL(RI.IsDeleted,0)=0 AND ISNULL(RI.InUse,1)=1
 ) RP
-WHERE ISNULL(I.IsDeleted,0)=0 AND I.RecId IN ({{MATCHED_IDS}});
+WHERE ISNULL(I.IsDeleted,0)=0 AND I.RecId IN (SELECT RecId FROM #Samples);

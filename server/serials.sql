@@ -9,7 +9,7 @@ SELECT PSC.RecId AS SerialCardId, PSC.SerialNo AS Barcode,
  WO.WorkOrderNo AS OrderNo,PSC.Quantity,
  C.OperationCode AS Color,C.RequirementGroup AS SupplyGroup,
  B.BodyName,I.UD_IWSTotalMin AS StudyMinutes,
- PSC.InsertedAt AS SerialCreatedAt,PSC.UpdatedAt AS SerialUpdatedAt,
+ CASE WHEN PSC.InsertedAt >= @since AND PSC.InsertedAt <= @until THEN PSC.InsertedAt END AS SerialCreatedAt, CASE WHEN PSC.InsertedAt >= @since AND PSC.InsertedAt <= @until THEN 0 ELSE 1 END AS EarlierBarcode,PSC.UpdatedAt AS SerialUpdatedAt,
  (SELECT TOP(1) A.RecId FROM dbo.IM_ItemAttachment A WHERE A.InventoryId=I.RecId AND ISNULL(A.IsDeleted,0)=0 AND (A.Attachment IS NOT NULL OR A.Thumbnail IS NOT NULL) ORDER BY A.RecId DESC) AS AttachmentId,
  (SELECT TOP(1) A.RecId FROM dbo.IM_ItemAttachment A WHERE A.InventoryId=M.RecId AND ISNULL(A.IsDeleted,0)=0 AND (A.Attachment IS NOT NULL OR A.Thumbnail IS NOT NULL) ORDER BY A.RecId DESC) AS MainAttachmentId
 FROM dbo.MA_ProductivitySerialCard PSC
@@ -22,4 +22,4 @@ LEFT JOIN dbo.IM_Mark MK ON MK.RecId=I.MarkId
 LEFT JOIN dbo.IM_ItemDepartment D ON D.RecId=I.ItemDepartmentId
 LEFT JOIN dbo.MD_StyleSampleType S ON S.RecId=I.StyleSampleTypeId
 OUTER APPLY (SELECT Name AS BodyName FROM dbo.tfx_DelimitedStringToTable(ISNULL(WO.SText,'XS#@#S#@#M#@#L#@#XL#@#XXL'),'#@#') WHERE SortNo=PSC.SSubNo) B
-WHERE ISNULL(PSC.IsDeleted,0)=0 AND I.RecId IN ({{MATCHED_IDS}});
+WHERE ISNULL(PSC.IsDeleted,0)=0 AND PSC.RecId IN (SELECT RecId FROM #ChangedSerial);

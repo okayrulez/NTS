@@ -32,16 +32,16 @@ class V2Tests(unittest.TestCase):
    db=Store(pathlib.Path(temp)/'v2.db');c=db.put_collection({'name':'K','modelKeys':['erp-model:1','erp-model:1']});self.assertEqual(len(c['modelKeys']),1)
    db.put_models([{'id':'canva-test'}]);self.assertTrue(db.link_model('canva-test','erp-model:1')['manualLink']);self.assertEqual(Store(pathlib.Path(temp)/'v2.db').state()['collections'][0]['name'],'K')
  def test_canva_only_accepts_valid_design_urls(self):
-  self.assertEqual(C.design_id('https://www.canva.com/design/DAHDNEqonRw/view'),'DAHDNEqonRw')
-  for url in ['https://evil.example/design/DAHDNEqonRw','../../private','http://canva.com.evil.test/design/DAHDNEqonRw']:
+  self.assertEqual(C.design_id('https://www.canva.com/design/DExample001/view'),'DExample001')
+  for url in ['https://evil.example/design/DExample001','../../private','http://canva.com.evil.test/design/DExample001']:
    with self.assertRaises(ValueError):C.design_id(url)
  def test_canva_duplicate_code_is_ambiguous_and_decorative_x_not_model(self):
   import pymupdf
   with tempfile.TemporaryDirectory() as temp:
    d=pymupdf.open();p=d.new_page();p.insert_text((20,40),'Model Kodu: ABC123');content=d.tobytes()
-   rows=C.parse_pdf(content,'DAHDNEqonRw',1,pathlib.Path(temp),{'erp-model:1':{'ABC123'},'erp-model:2':{'ABC123'}});self.assertIsNone(rows[0]['erpModelKey'])
-   rows=C.parse_pdf(content,'DAHDNEqonRw',1,pathlib.Path(temp),{'erp-model:1':{'ABC123'}});self.assertEqual(rows[0]['erpModelKey'],'erp-model:1')
-   d=pymupdf.open();d.new_page().insert_text((20,40),'X');self.assertEqual(C.parse_pdf(d.tobytes(),'DAHDNEqonRw',1,pathlib.Path(temp),{}),[])
+   rows=C.parse_pdf(content,'DExample001',1,pathlib.Path(temp),{'erp-model:1':{'ABC123'},'erp-model:2':{'ABC123'}});self.assertIsNone(rows[0]['erpModelKey'])
+   rows=C.parse_pdf(content,'DExample001',1,pathlib.Path(temp),{'erp-model:1':{'ABC123'}});self.assertEqual(rows[0]['erpModelKey'],'erp-model:1')
+   d=pymupdf.open();d.new_page().insert_text((20,40),'X');self.assertEqual(C.parse_pdf(d.tobytes(),'DExample001',1,pathlib.Path(temp),{}),[])
  def test_delta_add_update_remove_and_unchanged(self):
   import server as S
   S.versions.clear();a=S.install_snapshot([{'id':'1','v':1},{'id':'2','v':2}],{},[])

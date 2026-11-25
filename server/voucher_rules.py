@@ -16,7 +16,7 @@ def normalize_vouchers(vouchers,serials):
             if (v.get('ConfirmedTransferQuantity') or 0)<=0:reasons.append('135 çıkışın karşı 17 depo girişi doğrulanmadı.')
             elif not v.get('ConfirmedTransferAt'):reasons.append('Karşı depo girişinin tarih/saati eksik.')
             else:v['EventAt']=v['ConfirmedTransferAt']
-        total=counts[v.get('SampleRecId')]
+        total=v.get('TotalBarcodeCount',counts[v.get('SampleRecId')])
         if v.get('LinkLevel')=='sample' and total>1:reasons.append('Aynı numune versiyonunda '+str(total)+' barkod var; fiziksel barkod bağı yok.')
         v['AutomaticEligible']=not reasons;v['PendingReason']=' '.join(reasons);v['SampleBarcodeCount']=total
         v['WarehouseName']=v.get('InWarehouseName') or v.get('OutWarehouseName')

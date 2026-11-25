@@ -55,6 +55,21 @@ def select_stage(serial,item,events,vouchers,inter):
         evidence.sort(key=lambda e:(time_key(e['at']),e['id']))
         latest=evidence[-1];same=[e for e in evidence if time_key(e['at'])==time_key(latest['at'])]
         if len({e['stage'] for e in same})>1:return 'review','Son anda çelişen aşamalar var; hareket sırası teyit edilmeli.','conflicting_time',None
+        # Start of this uninterrupted stay, not the most recent repeat scan.
+        entered=latest
+        stages_at={}
+        for event in evidence:stages_at.setdefault(time_key(event['at']),set()).add(event['stage'])
+        ambiguous_entry=False
+        for event in reversed(evidence[:-1]):
+            group=stages_at[time_key(event['at'])]
+            if len(group)>1 and latest['stage'] in group:
+                ambiguous_entry=True;break
+            if event['stage']!=latest['stage']:break
+            entered=event
+        cut_from_local_route=(entered['source']=='barcode' and norm(entered['event'].get('ProcessName'))=='kesim'
+                              and inter.get('choice','erp')!='erp')
+        if not cut_from_local_route and not ambiguous_entry:
+            latest={**latest,'entry':{'stage':entered['stage'],'at':entered['at'],'source':entered['source'],'id':entered['id']}}
         if latest['stage']=='intermediate_review':return 'intermediate_review','Kesim okutulmuş; Baskı–Nakış / Dikim sırası ayrımı için ara işlem teyidi gerekli.','intermediate_unknown',latest
         if latest['source']=='receipt':return latest['stage'],str(latest['event']['ReceiptType'])+' fiş hareketi numuneye kesin bağlandı. Daha yeni üretim hareketi önceliklidir.',None,latest
         if latest['stage']=='queue':reason='Kesim operasyonu okutuldu; ara işlem yok → Dikim sırası.'
@@ -63,6 +78,8 @@ def select_stage(serial,item,events,vouchers,inter):
         else:reason='Dikimden gelen barkod okutuldu (Dikim / InOut=1) → Kalitede. Kalite onayı değildir.'
         return latest['stage'],reason,None,latest
     if unknown:return 'review','Tanımlı üretim akışı dışında hareket var; operasyon kontrol edilmeli.','unknown_operation',None
+    if serial and serial.get('EarlierBarcode'):
+        return 'review','Barkod güncellendi. Takip döneminde aşamayı doğrulayan bir üretim hareketi yok.','period_no_movement',None
     if serial and str(serial.get('Barcode') or '').strip():
         return 'cutting_in','Barkod kartı mevcut → Kesimde (onaylanan iş kuralı). Ayrı baskı zamanı kaydı yok; kart oluşturma tarihi ayrıca gösterilir.',None,{'source':'barcode-card','at':serial.get('SerialCreatedAt'),'id':serial.get('SerialCardId')}
     if str(item.get('PatternNo') or '').strip():return 'pattern_done','Numune kartındaki Kalıp No alanı dolu.',None,None
@@ -70,7 +87,7 @@ def select_stage(serial,item,events,vouchers,inter):
 
 def project_row(row,item,serial,events,vouchers,setting=None):
     inter=intermediate(item,setting);target,reason,issue,evidence=select_stage(serial,item,events,vouchers,inter)
-    row['erp'].update(stage=target,reason=reason,issue=issue,workflowVersion=3,intermediateSelected=inter['selected'],intermediateLabel=inter['label'],intermediateSource=inter['source'],intermediateChoice=inter['choice'],barcodeCreatedAt=(serial or {}).get('SerialCreatedAt'),barcodePrintEvidence='ERP barkod kartı varlığı; ayrı basım teyidi yok' if serial else None,stageEvidence={k:v for k,v in (evidence or {}).items() if k!='event'},vouchers=vouchers)
+    row['erp'].update(stage=target,reason=reason,issue=issue,workflowVersion=3,intermediateSelected=inter['selected'],intermediateLabel=inter['label'],intermediateSource=inter['source'],intermediateChoice=inter['choice'],barcodeCreatedAt=(serial or {}).get('SerialCreatedAt'),barcodePrintEvidence='ERP barkod kartı varlığı; ayrı basım teyidi yok' if serial else None,stageEvidence={k:v for k,v in (evidence or {}).items() if k not in ('event','entry')},stageEntry=(evidence or {}).get('entry'),vouchers=vouchers)
     byid={e['MovementId']:e for e in events}
     milestones={}
     for movement in row['erp'].get('movements',[]):

@@ -15,4 +15,4 @@ LEFT JOIN dbo.FI_Account A ON A.RecId=PT.FactoryId
 LEFT JOIN dbo.MD_User U ON U.RecId=PT.InsertedBy
 LEFT JOIN dbo.MD_User UU ON UU.RecId=PT.UpdatedBy
 OUTER APPLY (SELECT CASE WHEN COUNT(DISTINCT RR.Explanation)=1 THEN MIN(RR.Explanation) END AS EmployeeDisplayName FROM dbo.MA_Resource RR WHERE RR.EmployeeId=PT.EmployeeId AND NULLIF(LTRIM(RTRIM(RR.Explanation)),'') IS NOT NULL) ER
-WHERE PT.ProductivitySerialCardId IN ({{SERIAL_IDS}});
+WHERE PT.RecId IN (SELECT RecId FROM #ChangedMove) AND PT.ProductivitySerialCardId IN (SELECT RecId FROM #ChangedSerial);
